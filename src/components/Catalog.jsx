@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import Filters from "./Filters.jsx";
 import ProductCard from "./ProductCard.jsx";
+import { Reveal, RevealGroup, RevealItem } from "./Reveal.jsx";
 
 const PAGE_SIZE = 24;
 
@@ -40,15 +41,15 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
 
   return (
     <section id="produtos" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
-      <div className="mb-8 flex flex-col items-center text-center">
+      <Reveal className="mb-8 flex flex-col items-center text-center">
         <span className="text-xs font-semibold uppercase tracking-widest text-accent-pink">
           Catálogo completo
         </span>
         <h2 className="section-title mt-2">Todos os produtos</h2>
-        <p className="mt-2 max-w-md text-sm text-white/60">
+        <p className="mt-2 max-w-md text-sm text-ink-500">
           Use a busca ou os filtros para encontrar exatamente o que você quer.
         </p>
-      </div>
+      </Reveal>
 
       <div className="mb-8">
         <Filters
@@ -63,20 +64,22 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
       </div>
 
       {filtered.length === 0 ? (
-        <div className="card-surface rounded-2xl px-6 py-16 text-center text-white/60">
+        <div className="card-surface rounded-2xl px-6 py-16 text-center text-ink-500">
           Nenhum produto encontrado para essa busca/filtro.
         </div>
       ) : (
         <>
-          <p className="mb-4 text-xs text-white/45">
+          <p className="mb-4 text-xs text-ink-500">
             {filtered.length} produto{filtered.length !== 1 ? "s" : ""} encontrado
             {filtered.length !== 1 ? "s" : ""}
           </p>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
+          <RevealGroup className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
             {visible.map((product) => (
-              <ProductCard key={product.id} product={product} onOpenDetails={onOpenDetails} />
+              <RevealItem key={product.id}>
+                <ProductCard product={product} onOpenDetails={onOpenDetails} />
+              </RevealItem>
             ))}
-          </div>
+          </RevealGroup>
 
           {visibleCount < filtered.length && (
             <div className="mt-10 flex justify-center">
