@@ -12,7 +12,7 @@ export const COUNTRIES = [
   { key: "Japão", label: "Japão", flag: "🇯🇵" },
   { key: "China", label: "China", flag: "🇨🇳" },
   { key: "Tailândia", label: "Tailândia", flag: "🇹🇭" },
-  { key: "Taiwan", label: "Taiwan", flag: "🇹🇼" },
+  { key: "Taiwan", label: "Taiwan", flag: "TW" },
   { key: "Outras Importações", label: "Outras Importações", flag: "🌎" },
 ];
 

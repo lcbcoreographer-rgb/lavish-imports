@@ -18,7 +18,7 @@ export default function Hero({ productCount }) {
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 rounded-full border border-accent-pink/20 bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent-magenta shadow-sm backdrop-blur-sm"
           >
-            🇰🇷 🇯🇵 🇨🇳 🇹🇭 🇹🇼 Direto da Ásia para você
+            🌎 Importados da Ásia, Europa e muito mais
           </motion.span>
 
           <motion.h1
@@ -27,7 +27,7 @@ export default function Hero({ productCount }) {
             transition={{ duration: 0.5, delay: 0.08 }}
             className="max-w-xl text-4xl font-extrabold leading-[1.08] tracking-tight text-ink-900 sm:text-6xl"
           >
-            O universo asiático que você ama,{" "}
+            O mundo de importados que você ama,{" "}
             <span className="text-gradient">direto no seu carrinho</span>
           </motion.h1>
 
@@ -37,8 +37,8 @@ export default function Hero({ productCount }) {
             transition={{ duration: 0.5, delay: 0.16 }}
             className="max-w-md text-base text-ink-700 sm:text-lg"
           >
-            Lamens, snacks, doces, bebidas e itens exclusivos de K-pop, doramas
-            e animes — importados, selecionados e prontos para chegar até
+            Lamens, snacks, doces, bebidas e itens exclusivos de várias origens
+            — importados, selecionados e prontos para chegar até
             você. Mais de {productCount} produtos esperando por você.
           </motion.p>
 
@@ -67,7 +67,7 @@ export default function Hero({ productCount }) {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.32 }}
-            className="mt-4 grid w-full max-w-md grid-cols-3 gap-3 sm:gap-4"
+            className="mt-4 grid w-full max-w-lg grid-cols-3 gap-3 sm:gap-4"
           >
             {[
               { label: "Produtos", value: `${productCount}+` },
@@ -76,9 +76,9 @@ export default function Hero({ productCount }) {
             ].map((stat) => (
               <div
                 key={stat.label}
-                className="card-surface rounded-2xl px-3 py-4 text-center lg:text-left"
+                className="card-surface rounded-2xl px-2 py-4 text-center sm:px-3 lg:text-left"
               >
-                <div className="font-display text-xl font-bold text-ink-900 sm:text-2xl">
+                <div className="break-words font-display text-lg font-bold leading-tight text-ink-900 sm:text-2xl">
                   {stat.value}
                 </div>
                 <div className="mt-1 text-[11px] text-ink-500 sm:text-xs">
