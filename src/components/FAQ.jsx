@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Reveal } from "./Reveal.jsx";
 
 const FAQS = [
   {
@@ -28,12 +29,12 @@ export default function FAQ() {
 
   return (
     <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24">
-      <div className="mb-10 flex flex-col items-center text-center">
-        <span className="text-xs font-semibold uppercase tracking-widest text-accent-violet">
+      <Reveal className="mb-10 flex flex-col items-center text-center">
+        <span className="text-xs font-semibold uppercase tracking-widest text-accent-magenta">
           Dúvidas frequentes
         </span>
         <h2 className="section-title mt-2">Perguntas & Respostas</h2>
-      </div>
+      </Reveal>
 
       <div className="flex flex-col gap-3">
         {FAQS.map((item, i) => {
@@ -44,7 +45,7 @@ export default function FAQ() {
                 onClick={() => setOpen(isOpen ? null : i)}
                 className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
               >
-                <span className="font-display text-sm font-semibold">{item.q}</span>
+                <span className="font-display text-sm font-semibold text-ink-900">{item.q}</span>
                 <span
                   className={`shrink-0 text-xl text-accent-pink transition-transform duration-200 ${
                     isOpen ? "rotate-45" : ""
@@ -54,7 +55,7 @@ export default function FAQ() {
                 </span>
               </button>
               {isOpen && (
-                <div className="px-5 pb-4 text-sm leading-relaxed text-white/65">{item.a}</div>
+                <div className="px-5 pb-4 text-sm leading-relaxed text-ink-700">{item.a}</div>
               )}
             </div>
           );
