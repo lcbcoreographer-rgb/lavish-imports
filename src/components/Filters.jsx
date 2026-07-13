@@ -16,13 +16,13 @@ export default function Filters({
   return (
     <div className="flex flex-col gap-4">
       <div className="relative">
-        <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40" />
+        <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-500" />
         <input
           value={search}
           onChange={(e) => onSearch(e.target.value)}
           type="text"
           placeholder="Buscar por nome, categoria ou país..."
-          className="w-full rounded-full border border-white/10 bg-white/5 py-3 pl-11 pr-4 text-sm text-white placeholder:text-white/40 outline-none transition-colors focus:border-accent-pink/50"
+          className="w-full rounded-full border border-black/10 bg-white py-3 pl-11 pr-4 text-sm text-ink-900 placeholder:text-ink-500 outline-none transition-colors focus:border-accent-pink/60"
         />
       </div>
 
@@ -70,9 +70,9 @@ function FilterChip({ active, onClick, label, variant }) {
       className={`rounded-full border px-3.5 py-1.5 text-xs font-medium transition-all duration-150 ${
         active
           ? variant === "country"
-            ? "border-accent-cyan/60 bg-accent-cyan/15 text-accent-cyan"
-            : "border-accent-pink/60 bg-accent-pink/15 text-accent-pink"
-          : "border-white/10 bg-white/5 text-white/65 hover:border-white/25"
+            ? "border-accent-gold bg-accent-gold/20 text-ink-900"
+            : "border-accent-pink/60 bg-accent-pink/15 text-accent-magenta"
+          : "border-black/10 bg-white text-ink-700 hover:border-accent-pink/30"
       }`}
     >
       {label}
