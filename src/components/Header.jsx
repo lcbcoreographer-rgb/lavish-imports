@@ -39,13 +39,12 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="#inicio" className="flex items-center gap-2 shrink-0">
-          <span className="grid h-10 w-10 place-items-center rounded-2xl bg-brand-gradient font-display text-lg font-extrabold text-white shadow-glow">
-            L
-          </span>
-          <span className="font-display text-lg font-bold tracking-tight text-ink-900 sm:text-xl">
-            Lavish <span className="text-gradient">Imports</span>
-          </span>
+        <a href="#inicio" className="flex items-center shrink-0">
+          <img
+            src="/assets/lavish-logo.png"
+            alt="Lavish Imports"
+            className="h-9 w-auto sm:h-10"
+          />
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex">

@@ -9,14 +9,11 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-gradient font-display text-base font-extrabold text-white">
-                L
-              </span>
-              <span className="font-display text-lg font-bold text-ink-900">
-                Lavish <span className="text-gradient">Imports</span>
-              </span>
-            </div>
+            <img
+              src="/assets/lavish-logo.png"
+              alt="Lavish Imports"
+              className="h-8 w-auto"
+            />
             <p className="mt-3 text-sm text-ink-500">
               Produtos importados asiáticos selecionados com curadoria e amor
               pela cultura pop.
