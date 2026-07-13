@@ -19,14 +19,14 @@ h1, h2, h3, h4 {
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #fff9fb;
+  background: #fff0f5;
 }
 ::-webkit-scrollbar-thumb {
-  background: #c9b8c1;
+  background: #ff8fb8;
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff8fb8;
+  background: #ff3d81;
 }
 
 @layer components {
@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
   }
 
   .card-surface {
-    @apply bg-white/80 border border-ink-300/20 backdrop-blur-sm;
+    @apply bg-white/90 border border-black/5 backdrop-blur-sm shadow-card;
   }
 
   .btn-primary {
@@ -46,15 +46,15 @@ h1, h2, h3, h4 {
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 font-display font-semibold text-white backdrop-blur-sm transition-all duration-200 hover:border-accent-pink/60 hover:bg-white/10;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-accent-pink/25 bg-white px-6 py-3 font-display font-semibold text-ink-900 transition-all duration-200 hover:border-accent-pink/60 hover:bg-paper-100;
   }
 
   .btn-whatsapp {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-2.5 font-display text-sm font-semibold text-ink-900 shadow-lg transition-transform duration-200 hover:scale-[1.03] active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-2.5 font-display text-sm font-semibold text-white shadow-lg transition-transform duration-200 hover:scale-[1.03] active:scale-[0.98];
   }
 
   .section-title {
-    @apply text-3xl sm:text-4xl font-extrabold tracking-tight;
+    @apply text-3xl sm:text-4xl font-extrabold tracking-tight text-ink-900;
   }
 }
 
@@ -74,11 +74,23 @@ h1, h2, h3, h4 {
 }
 
 @keyframes floatSlow {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-14px); }
+  0%, 100% { transform: translateY(0px) rotate(var(--rotate, 0deg)); }
+  50% { transform: translateY(-14px) rotate(var(--rotate, 0deg)); }
 }
 .animate-float {
   animation: floatSlow 6s ease-in-out infinite;
+}
+
+.floating-icon {
+  animation: floatSlow var(--duration, 6s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-icon,
+  .animate-float {
+    animation: none !important;
+  }
 }
 
 @keyframes pulseGlow {
