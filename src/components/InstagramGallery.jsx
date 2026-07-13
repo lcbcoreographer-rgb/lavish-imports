@@ -1,19 +1,20 @@
 import React from "react";
+import { Reveal } from "./Reveal.jsx";
 
 export default function InstagramGallery({ products }) {
   const sample = products.slice(0, 8);
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
-      <div className="mb-10 flex flex-col items-center text-center">
+      <Reveal className="mb-10 flex flex-col items-center text-center">
         <span className="text-xs font-semibold uppercase tracking-widest text-accent-pink">
           @lavishimports
         </span>
         <h2 className="section-title mt-2">Siga no Instagram</h2>
-        <span className="mt-3 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/50">
+        <span className="mt-3 rounded-full border border-black/10 bg-paper-100 px-3 py-1 text-[11px] text-ink-500">
           Grid preparado com fotos do catálogo — substitua pelos posts reais do Instagram
         </span>
-      </div>
+      </Reveal>
 
       <div className="grid grid-cols-4 gap-2 sm:gap-3">
         {sample.map((p) => (
