@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MotionConfig } from "framer-motion";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import CategoryGrid from "./components/CategoryGrid.jsx";
@@ -30,26 +31,28 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero productCount={products.length} />
-      <CategoryGrid products={products} onSelectCategory={handleSelectCategory} />
-      <Catalog
-        products={products}
-        onOpenDetails={setSelectedProduct}
-        initialCategory={categoryFilter}
-        resetSignal={resetSignal}
-      />
-      <PopCultureSection products={popCultureProducts} onOpenDetails={setSelectedProduct} />
-      <Benefits />
-      <Testimonials />
-      <InstagramGallery products={products} />
-      <FAQ />
-      <FinalCTA />
-      <Footer />
+    <MotionConfig reducedMotion="user">
+      <div className="min-h-screen">
+        <Header />
+        <Hero productCount={products.length} />
+        <CategoryGrid products={products} onSelectCategory={handleSelectCategory} />
+        <Catalog
+          products={products}
+          onOpenDetails={setSelectedProduct}
+          initialCategory={categoryFilter}
+          resetSignal={resetSignal}
+        />
+        <PopCultureSection products={popCultureProducts} onOpenDetails={setSelectedProduct} />
+        <Benefits />
+        <Testimonials />
+        <InstagramGallery products={products} />
+        <FAQ />
+        <FinalCTA />
+        <Footer />
 
-      <CartDrawer />
-      <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />
-    </div>
+        <CartDrawer />
+        <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />
+      </div>
+    </MotionConfig>
   );
 }
