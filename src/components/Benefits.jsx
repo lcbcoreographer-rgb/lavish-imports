@@ -1,4 +1,5 @@
 import React from "react";
+import { Reveal, RevealGroup, RevealItem } from "./Reveal.jsx";
 
 const BENEFITS = [
   { icon: "✅", title: "Produtos Originais", desc: "100% originais, importados direto dos países de origem." },
@@ -12,29 +13,28 @@ const BENEFITS = [
 export default function Benefits() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
-      <div className="mb-10 flex flex-col items-center text-center">
+      <Reveal className="mb-10 flex flex-col items-center text-center">
         <span className="text-xs font-semibold uppercase tracking-widest text-accent-gold">
           Por que a Lavish Imports
         </span>
         <h2 className="section-title mt-2">Confiança em cada pedido</h2>
-      </div>
+      </Reveal>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <RevealGroup className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {BENEFITS.map((b) => (
-          <div
-            key={b.title}
-            className="card-surface flex items-start gap-4 rounded-2xl p-5 transition-all duration-200 hover:-translate-y-1 hover:border-accent-gold/40"
-          >
-            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white/5 text-xl">
-              {b.icon}
-            </span>
-            <div>
-              <h3 className="font-display text-sm font-bold">{b.title}</h3>
-              <p className="mt-1 text-xs leading-relaxed text-white/60">{b.desc}</p>
+          <RevealItem key={b.title}>
+            <div className="card-surface flex h-full items-start gap-4 rounded-2xl p-5 transition-all duration-200 hover:-translate-y-1 hover:border-accent-gold/40">
+              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-paper-100 text-xl">
+                {b.icon}
+              </span>
+              <div>
+                <h3 className="font-display text-sm font-bold text-ink-900">{b.title}</h3>
+                <p className="mt-1 text-xs leading-relaxed text-ink-500">{b.desc}</p>
+              </div>
             </div>
-          </div>
+          </RevealItem>
         ))}
-      </div>
+      </RevealGroup>
     </section>
   );
 }
