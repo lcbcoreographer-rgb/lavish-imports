@@ -5,6 +5,34 @@ import CountryFlag from "./CountryFlag.jsx";
 export default function ProductCard({ product, onOpenDetails }) {
   const { addItem, lastAdded } = useCart();
   const justAdded = lastAdded === product.id;
+  const hasPrice = typeof product.price === "number";
+
+  if (!hasPrice) {
+    return (
+      <div className="group flex flex-col overflow-hidden rounded-2xl border border-black/5 bg-paper-100 shadow-card transition-all duration-200 hover:-translate-y-1 hover:border-accent-pink/40 hover:shadow-glow">
+        <button
+          onClick={() => onOpenDetails(product)}
+          className="relative aspect-square w-full overflow-hidden bg-paper-200"
+        >
+          <img
+            src={product.image}
+            alt={product.name}
+            loading="lazy"
+            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </button>
+
+        <div className="p-3.5">
+          <button
+            onClick={() => onOpenDetails(product)}
+            className="text-left font-display text-sm font-semibold leading-snug text-ink-900 line-clamp-3 hover:text-accent-pink"
+          >
+            {product.name}
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="group flex flex-col overflow-hidden rounded-2xl border border-black/5 bg-paper-100 shadow-card transition-all duration-200 hover:-translate-y-1 hover:border-accent-pink/40 hover:shadow-glow">
@@ -40,11 +68,7 @@ export default function ProductCard({ product, onOpenDetails }) {
         </button>
 
         <div className="mt-auto flex items-center justify-between gap-2 pt-2">
-          <span
-            className={`font-display text-base font-bold ${
-              typeof product.price === "number" ? "text-ink-900" : "text-ink-500 text-xs"
-            }`}
-          >
+          <span className="font-display text-base font-bold text-ink-900">
             {product.priceLabel}
           </span>
         </div>

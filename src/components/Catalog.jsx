@@ -1,20 +1,16 @@
 import React, { useEffect, useMemo, useState } from "react";
 import Filters from "./Filters.jsx";
 import ProductCard from "./ProductCard.jsx";
-import { Reveal, RevealGroup, RevealItem } from "./Reveal.jsx";
-
-const PAGE_SIZE = 24;
+import { Reveal } from "./Reveal.jsx";
 
 export default function Catalog({ products, onOpenDetails, initialCategory, resetSignal }) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState(initialCategory ?? null);
   const [country, setCountry] = useState(null);
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
     if (initialCategory !== undefined) {
       setCategory(initialCategory);
-      setVisibleCount(PAGE_SIZE);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [resetSignal]);
@@ -22,23 +18,19 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return products.filter((p) => {
+      const name = p.name ?? "";
+      const productCategory = p.category ?? "";
+      const productCountry = p.country ?? "";
       const matchesSearch =
         !q ||
-        p.name.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q) ||
-        p.country.toLowerCase().includes(q);
-      const matchesCategory = !category || p.category === category;
-      const matchesCountry = !country || p.country === country;
+        name.toLowerCase().includes(q) ||
+        productCategory.toLowerCase().includes(q) ||
+        productCountry.toLowerCase().includes(q);
+      const matchesCategory = !category || productCategory === category;
+      const matchesCountry = !country || productCountry === country;
       return matchesSearch && matchesCategory && matchesCountry;
     });
   }, [products, search, category, country]);
-
-  useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
-  }, [search, category, country]);
-
-  const hasActiveFilters = Boolean(search.trim() || category || country);
-  const visible = hasActiveFilters ? filtered : filtered.slice(0, visibleCount);
 
   return (
     <section id="produtos" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
@@ -74,24 +66,11 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
             {filtered.length} produto{filtered.length !== 1 ? "s" : ""} encontrado
             {filtered.length !== 1 ? "s" : ""}
           </p>
-          <RevealGroup className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
-            {visible.map((product) => (
-              <RevealItem key={product.id}>
-                <ProductCard product={product} onOpenDetails={onOpenDetails} />
-              </RevealItem>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
+            {filtered.map((product) => (
+              <ProductCard key={product.id} product={product} onOpenDetails={onOpenDetails} />
             ))}
-          </RevealGroup>
-
-          {!hasActiveFilters && visibleCount < filtered.length && (
-            <div className="mt-10 flex justify-center">
-              <button
-                onClick={() => setVisibleCount((v) => v + PAGE_SIZE)}
-                className="btn-secondary"
-              >
-                Carregar mais produtos
-              </button>
-            </div>
-          )}
+          </div>
         </>
       )}
     </section>
