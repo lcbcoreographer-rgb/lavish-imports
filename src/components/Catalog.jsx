@@ -37,7 +37,8 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
     setVisibleCount(PAGE_SIZE);
   }, [search, category, country]);
 
-  const visible = filtered.slice(0, visibleCount);
+  const hasActiveFilters = Boolean(search.trim() || category || country);
+  const visible = hasActiveFilters ? filtered : filtered.slice(0, visibleCount);
 
   return (
     <section id="produtos" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
@@ -81,7 +82,7 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
             ))}
           </RevealGroup>
 
-          {visibleCount < filtered.length && (
+          {!hasActiveFilters && visibleCount < filtered.length && (
             <div className="mt-10 flex justify-center">
               <button
                 onClick={() => setVisibleCount((v) => v + PAGE_SIZE)}
