@@ -4,19 +4,21 @@ export default {
   theme: {
     extend: {
       colors: {
+        paper: {
+          50: "#fff9fb",
+          100: "#fff0f5",
+          200: "#ffe2ec",
+        },
         ink: {
-          950: "#07070c",
-          900: "#0d0d16",
-          800: "#141420",
-          700: "#1c1c2c",
-          600: "#26263a",
-          500: "#33334c",
+          900: "#2b1f27",
+          700: "#5c4653",
+          500: "#8a7480",
+          300: "#c9b8c1",
         },
         accent: {
           pink: "#ff3d81",
-          magenta: "#c026d3",
-          violet: "#7c3aed",
-          cyan: "#22d3ee",
+          pinkSoft: "#ff8fb8",
+          magenta: "#d6478f",
           gold: "#ffc857",
         },
       },
@@ -26,13 +28,13 @@ export default {
       },
       backgroundImage: {
         "aurora-1":
-          "radial-gradient(circle at 20% 20%, rgba(255,61,129,0.35), transparent 55%), radial-gradient(circle at 80% 0%, rgba(124,58,237,0.35), transparent 50%), radial-gradient(circle at 50% 100%, rgba(34,211,238,0.25), transparent 55%)",
-        "brand-gradient": "linear-gradient(135deg, #ff3d81 0%, #c026d3 50%, #7c3aed 100%)",
+          "radial-gradient(circle at 20% 10%, rgba(255,143,184,0.35), transparent 55%), radial-gradient(circle at 85% 0%, rgba(255,61,129,0.18), transparent 50%), radial-gradient(circle at 50% 100%, rgba(255,200,87,0.15), transparent 55%)",
+        "brand-gradient": "linear-gradient(135deg, #ff3d81 0%, #d6478f 100%)",
         "gold-gradient": "linear-gradient(135deg, #ffe08a 0%, #ffc857 100%)",
       },
       boxShadow: {
-        glow: "0 0 40px rgba(255,61,129,0.25)",
-        card: "0 8px 30px rgba(0,0,0,0.35)",
+        glow: "0 20px 60px -15px rgba(255,61,129,0.35)",
+        card: "0 10px 30px -10px rgba(43,31,39,0.15)",
       },
     },
   },
