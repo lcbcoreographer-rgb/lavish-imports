@@ -1,5 +1,6 @@
 import React from "react";
 import { useCart } from "../context/CartContext.jsx";
+import CountryFlag from "./CountryFlag.jsx";
 
 export default function ProductCard({ product, onOpenDetails }) {
   const { addItem, lastAdded } = useCart();
@@ -18,7 +19,7 @@ export default function ProductCard({ product, onOpenDetails }) {
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
         <span className="absolute left-2 top-2 rounded-full bg-white/85 px-2 py-1 text-xs text-ink-900 backdrop-blur-sm">
-          {product.countryFlag}
+          <CountryFlag country={product.country} />
         </span>
         {product.tag && (
           <span className="absolute right-2 top-2 rounded-full bg-gold-gradient px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink-900 shadow">

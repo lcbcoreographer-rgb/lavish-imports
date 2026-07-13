@@ -1,5 +1,6 @@
 import React from "react";
 import { CATEGORIES, COUNTRIES, countByCategory, countByCountry } from "../utils/categories.js";
+import CountryFlag from "./CountryFlag.jsx";
 
 export default function Filters({
   products,
@@ -54,7 +55,12 @@ export default function Filters({
             key={c.key}
             active={country === c.key}
             onClick={() => onCountry(c.key)}
-            label={`${c.flag} ${c.label} (${countryCounts[c.key]})`}
+            label={
+              <>
+                <CountryFlag country={c.key} />
+                <span>{c.label} ({countryCounts[c.key]})</span>
+              </>
+            }
             variant="country"
           />
         ))}
@@ -67,7 +73,7 @@ function FilterChip({ active, onClick, label, variant }) {
   return (
     <button
       onClick={onClick}
-      className={`rounded-full border px-3.5 py-1.5 text-xs font-medium transition-all duration-150 ${
+      className={`inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-xs font-medium transition-all duration-150 ${
         active
           ? variant === "country"
             ? "border-accent-gold bg-accent-gold/20 text-ink-900"
