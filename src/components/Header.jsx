@@ -34,16 +34,16 @@ export default function Header() {
     <header
       className={`sticky top-0 z-40 transition-all duration-300 ${
         scrolled
-          ? "bg-ink-950/90 backdrop-blur-md border-b border-white/10 shadow-lg"
+          ? "border-b border-black/5 bg-white/90 shadow-sm backdrop-blur-md"
           : "bg-transparent"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#inicio" className="flex items-center gap-2 shrink-0">
-          <span className="grid h-10 w-10 place-items-center rounded-2xl bg-brand-gradient font-display text-lg font-extrabold shadow-glow">
+          <span className="grid h-10 w-10 place-items-center rounded-2xl bg-brand-gradient font-display text-lg font-extrabold text-white shadow-glow">
             L
           </span>
-          <span className="font-display text-lg font-bold tracking-tight sm:text-xl">
+          <span className="font-display text-lg font-bold tracking-tight text-ink-900 sm:text-xl">
             Lavish <span className="text-gradient">Imports</span>
           </span>
         </a>
@@ -53,7 +53,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-white/75 transition-colors hover:text-white"
+              className="text-sm font-medium text-ink-700 transition-colors hover:text-accent-pink"
             >
               {link.label}
             </a>
@@ -62,7 +62,9 @@ export default function Header() {
 
         <div className="flex items-center gap-2 sm:gap-3">
           <a
-            href={buildWhatsappContactLink("Olá! Vim pelo catálogo online e gostaria de mais informações.")}
+            href={buildWhatsappContactLink(
+              "Olá! Vim pelo catálogo online e gostaria de mais informações."
+            )}
             target="_blank"
             rel="noreferrer"
             className="btn-whatsapp hidden sm:inline-flex"
@@ -73,7 +75,7 @@ export default function Header() {
 
           <button
             onClick={openCart}
-            className={`relative grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/5 transition-transform ${
+            className={`relative grid h-11 w-11 place-items-center rounded-full border border-black/10 bg-white text-ink-900 transition-transform ${
               bump ? "scale-110" : ""
             }`}
             aria-label="Abrir sacola"
@@ -87,7 +89,7 @@ export default function Header() {
           </button>
 
           <button
-            className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/5 lg:hidden"
+            className="grid h-11 w-11 place-items-center rounded-full border border-black/10 bg-white text-ink-900 lg:hidden"
             onClick={() => setMobileOpen((v) => !v)}
             aria-label="Abrir menu"
           >
@@ -97,20 +99,22 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-white/10 bg-ink-950/95 px-4 py-4 backdrop-blur-md lg:hidden">
+        <div className="border-t border-black/5 bg-white px-4 py-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="rounded-lg px-3 py-2.5 text-sm font-medium text-white/85 hover:bg-white/5"
+                className="rounded-lg px-3 py-2.5 text-sm font-medium text-ink-700 hover:bg-paper-100 hover:text-accent-pink"
               >
                 {link.label}
               </a>
             ))}
             <a
-              href={buildWhatsappContactLink("Olá! Vim pelo catálogo online e gostaria de mais informações.")}
+              href={buildWhatsappContactLink(
+                "Olá! Vim pelo catálogo online e gostaria de mais informações."
+              )}
               target="_blank"
               rel="noreferrer"
               className="btn-whatsapp mt-2"
