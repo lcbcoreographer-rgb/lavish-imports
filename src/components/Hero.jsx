@@ -27,8 +27,9 @@ export default function Hero({ productCount }) {
             transition={{ duration: 0.5, delay: 0.08 }}
             className="max-w-xl text-4xl font-extrabold leading-[1.08] tracking-tight text-ink-900 sm:text-6xl"
           >
-            O mundo de importados que você ama,{" "}
-            <span className="text-gradient">direto no seu carrinho</span>
+            Os importados mais desejados da{" "}
+            <span className="text-gradient">Ásia, Europa e EUA</span> em um
+            só lugar
           </motion.h1>
 
           <motion.p
@@ -37,9 +38,8 @@ export default function Hero({ productCount }) {
             transition={{ duration: 0.5, delay: 0.16 }}
             className="max-w-md text-base text-ink-700 sm:text-lg"
           >
-            Lamens, snacks, doces, bebidas e itens exclusivos de várias origens
-            — importados, selecionados e prontos para chegar até
-            você. Mais de {productCount} produtos esperando por você.
+            Doces, snacks, bebidas, lamens, K-pop, anime e muito mais, tudo em
+            um só lugar.
           </motion.p>
 
           <motion.div
