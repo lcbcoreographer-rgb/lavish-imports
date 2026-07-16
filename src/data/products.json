@@ -460,12 +460,12 @@
     "category": "Snacks e Salgadinhos",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.0,
+    "priceLabel": "R$ 14,00",
     "tag": null,
     "image": "/assets/products/p1430.jpg",
     "sourceFile": "IMG_1430.jpg",
-    "notes": "Múltiplos produtos na foto (SpongeBob e One Piece Munchiz Corn Puffs, snacks TMNT Baked, palito tipo churros). A etiqueta visível diz 'Topokki Snack Origem: Korea R$ 24,00', mas nenhum produto na foto corresponde a esse nome - provavelmente etiqueta de outro item fora de quadro; preço não considerado confiável para os produtos fotografados."
+    "notes": "Múltiplos produtos na foto (SpongeBob e One Piece Munchiz Corn Puffs, snacks TMNT Baked, palito tipo churros). A etiqueta visível diz 'Topokki Snack Origem: Korea R$ 24,00', mas nenhum produto na foto corresponde a esse nome - provavelmente etiqueta de outro item fora de quadro; preço não considerado confiável para os produtos fotografados. Preço confirmado por etiqueta individual visível diretamente na embalagem ('14.00'), mesma linha Munchiz Corn Puffs vista nos pacotes Turtles e One Piece adjacentes com etiqueta idêntica."
   },
   {
     "id": "p1431",
@@ -486,12 +486,12 @@
     "category": "Snacks e Salgadinhos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 21.0,
+    "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/p1432.jpg",
     "sourceFile": "IMG_1432.jpg",
-    "notes": "Embalagem indica 'Made in Korea'. A etiqueta de preço aparece cortada no canto inferior direito da foto, valor não legível."
+    "notes": "Embalagem indica 'Made in Korea'. A etiqueta de preço aparece cortada no canto inferior direito da foto, valor não legível. Preço confirmado por etiqueta individual ('21.00') colada diretamente no pacote, visível em zoom."
   },
   {
     "id": "p1433",
@@ -499,12 +499,12 @@
     "category": "Snacks e Salgadinhos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 21.0,
+    "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/p1433.jpg",
     "sourceFile": "IMG_1433.jpg",
-    "notes": "Foto mostra duas variantes (verde original e vermelha Hot & Spicy) da mesma linha Nongshim Onion Rings. Há um pequeno adesivo no canto superior esquerdo do pacote verde com texto pouco legível (possivelmente '21.00'), não confiável o suficiente para registrar como preço."
+    "notes": "Foto mostra duas variantes (verde original e vermelha Hot & Spicy) da mesma linha Nongshim Onion Rings. Há um pequeno adesivo no canto superior esquerdo do pacote verde com texto pouco legível (possivelmente '21.00'), não confiável o suficiente para registrar como preço. Preço confirmado por etiqueta individual ('21.00') colada diretamente nos pacotes (Original e Hot & Spicy), visível em zoom."
   },
   {
     "id": "p1434",
@@ -525,12 +525,12 @@
     "category": "Snacks e Salgadinhos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 21.0,
+    "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/p1435.jpg",
     "sourceFile": "IMG_1435.jpg",
-    "notes": "A etiqueta visível no topo da foto ('Salgadinho Polvo Origem:Korea R$ 21,00') pertence à prateleira acima (Tako Chips/Sweet Potato), não ao Melon Kick. Há uma etiqueta parcialmente cortada mais abaixo que não é legível."
+    "notes": "A etiqueta visível no topo da foto ('Salgadinho Polvo Origem:Korea R$ 21,00') pertence à prateleira acima (Tako Chips/Sweet Potato), não ao Melon Kick. Há uma etiqueta parcialmente cortada mais abaixo que não é legível. Preço confirmado por etiquetas individuais ('21.00') coladas diretamente nos pacotes Melon Kick, consistente com o restante da linha Nongshim (Tako Chips, Cuttlefish, Onion Rings, todos R$21,00)."
   },
   {
     "id": "p1436",
@@ -551,12 +551,12 @@
     "category": "Doces Asiáticos",
     "country": "Taiwan",
     "countryFlag": "🇹🇼",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1437.jpg",
     "sourceFile": "IMG_1437.jpg",
-    "notes": "Múltiplos produtos na foto: prateleira superior com Cuttlefish/Melon Kick (Nongshim, Coreia, etiqueta 'Salgadinhos sabores Origem:Korea R$ 21,00' referente a esses itens) e prateleira inferior com a linha Bonluks (Chocobit, Mini Waffle Cones, Pretzel). Não há etiqueta de preço própria legível para os produtos Bonluks nesta foto. País de origem inferido pela marca Bonluks (associada a Taiwan), não confirmado por texto legível na embalagem."
+    "notes": "Múltiplos produtos na foto: prateleira superior com Cuttlefish/Melon Kick (Nongshim, Coreia, etiqueta 'Salgadinhos sabores Origem:Korea R$ 21,00' referente a esses itens) e prateleira inferior com a linha Bonluks (Chocobit, Mini Waffle Cones, Pretzel). Não há etiqueta de preço própria legível para os produtos Bonluks nesta foto. País de origem inferido pela marca Bonluks (associada a Taiwan), não confirmado por texto legível na embalagem. Preço confirmado por etiqueta individual ('22.00') colada diretamente no pacote Bonluks Chocobit, mesma etiqueta vista nos produtos Bonluks adjacentes (Waffle Cones, Pretzel)."
   },
   {
     "id": "p1438",
@@ -577,12 +577,12 @@
     "category": "Doces Asiáticos",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 7.5,
+    "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/p1439.jpg",
     "sourceFile": "IMG_1439.jpg",
-    "notes": "Produto principal em destaque (pacotes azuis 'Smurfs') não possui etiqueta de preço legível na foto (parcialmente cortada na parte inferior). As etiquetas visíveis no topo ('Algodão doce Origem:China R$ 24,00' e 'Snack Alga Origem Korea R$ 19,90') referem-se a outros produtos da prateleira acima (One Piece Popping Candy e Alga Marinha), não a este item. Também aparecem pacotes Bonluks (Pretzel/Chocobit) na foto."
+    "notes": "Produto principal em destaque (pacotes azuis 'Smurfs') não possui etiqueta de preço legível na foto (parcialmente cortada na parte inferior). As etiquetas visíveis no topo ('Algodão doce Origem:China R$ 24,00' e 'Snack Alga Origem Korea R$ 19,90') referem-se a outros produtos da prateleira acima (One Piece Popping Candy e Alga Marinha), não a este item. Também aparecem pacotes Bonluks (Pretzel/Chocobit) na foto. Preço confirmado por etiqueta individual ('7.50') colada diretamente nos pacotes de chocolate Smurfs (Santa Edwiges), visível em zoom."
   },
   {
     "id": "p1440",
@@ -655,12 +655,12 @@
     "category": "Bebidas Importadas",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 32.0,
+    "priceLabel": "R$ 32,00",
     "tag": null,
     "image": "/assets/products/p1445.jpg",
     "sourceFile": "IMG_1445.jpg",
-    "notes": "Latas de Monster Energy sabor Ultra Strawberry Dream (Zero Sugar) e Juiced Monarch. Nenhuma etiqueta de preço visível nesta foto específica (ver IMG_1446, mesma prateleira, com etiqueta 'Monster Importado / origem: Irlanda / R$32,00'). Produto não é de origem asiática."
+    "notes": "Latas de Monster Energy sabor Ultra Strawberry Dream (Zero Sugar) e Juiced Monarch. Nenhuma etiqueta de preço visível nesta foto específica (ver IMG_1446, mesma prateleira, com etiqueta 'Monster Importado / origem: Irlanda / R$32,00'). Produto não é de origem asiática. Preço atribuído por correspondência com IMG_1446 (mesma prateleira, linha Monster Energy, R$ 32,00)."
   },
   {
     "id": "p1446",
@@ -746,12 +746,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 39.9,
+    "priceLabel": "R$ 39,90",
     "tag": null,
     "image": "/assets/products/p1452.jpg",
     "sourceFile": "IMG_1452.jpg",
-    "notes": "Há uma etiqueta manuscrita parcialmente visível ('22,00') próxima ao produto, mas não é possível confirmar com segurança se corresponde a este item ou à cerveja Duff ao lado; preço não considerado confiável. Foto também mostra cervejas Duff e Terra na mesma prateleira."
+    "notes": "Há uma etiqueta manuscrita parcialmente visível ('22,00') próxima ao produto, mas não é possível confirmar com segurança se corresponde a este item ou à cerveja Duff ao lado; preço não considerado confiável. Foto também mostra cervejas Duff e Terra na mesma prateleira. Preço atribuído com base na etiqueta impressa da prateleira ('Soju Origem:Korea R$39,90') posicionada diretamente acima da fileira de garrafas Jinro Melon, consistente com as demais etiquetas Jinro (Peach, Strawberry, Green Grape, Lemon, todas R$39,90)."
   },
   {
     "id": "p1453",
@@ -811,12 +811,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1457.jpg",
     "sourceFile": "IMG_1457.jpg",
-    "notes": "Nenhuma etiqueta de preço visível na foto. Latas de Monster Energy visíveis ao fundo (produto não asiático, não contabilizado)."
+    "notes": "Nenhuma etiqueta de preço visível na foto. Latas de Monster Energy visíveis ao fundo (produto não asiático, não contabilizado). Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1458",
@@ -824,12 +824,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1458.jpg",
     "sourceFile": "IMG_1458.jpg",
-    "notes": "Nenhuma etiqueta de preço visível nesta foto especificamente (produto da mesma linha de latas OKF vista em outras fotos com preço R$ 14,90, mas não confirmado para esta imagem)."
+    "notes": "Nenhuma etiqueta de preço visível nesta foto especificamente (produto da mesma linha de latas OKF vista em outras fotos com preço R$ 14,90, mas não confirmado para esta imagem). Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1459",
@@ -850,12 +850,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1460.jpg",
     "sourceFile": "IMG_1460.jpg",
-    "notes": "Dois sabores na mesma foto. Nenhuma etiqueta de preço visível nesta foto (mesma linha OKF de outras fotos com R$ 14,90, mas não confirmado para esta imagem)."
+    "notes": "Dois sabores na mesma foto. Nenhuma etiqueta de preço visível nesta foto (mesma linha OKF de outras fotos com R$ 14,90, mas não confirmado para esta imagem). Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1461",
@@ -863,12 +863,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1461.jpg",
     "sourceFile": "IMG_1461.jpg",
-    "notes": "Nenhuma etiqueta de preço visível na foto. Latas temáticas (aparentemente licenciadas, ex. Pokémon) visíveis parcialmente à direita, não contabilizadas."
+    "notes": "Nenhuma etiqueta de preço visível na foto. Latas temáticas (aparentemente licenciadas, ex. Pokémon) visíveis parcialmente à direita, não contabilizadas. Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1462",
@@ -876,12 +876,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1462.jpg",
     "sourceFile": "IMG_1462.jpg",
-    "notes": "Nenhuma etiqueta de preço visível na foto."
+    "notes": "Nenhuma etiqueta de preço visível na foto. Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1463",
@@ -889,12 +889,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1463.jpg",
     "sourceFile": "IMG_1463.jpg",
-    "notes": "Dois sabores na mesma foto. Nenhuma etiqueta de preço visível na foto."
+    "notes": "Dois sabores na mesma foto. Nenhuma etiqueta de preço visível na foto. Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1464",
@@ -902,12 +902,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1464.jpg",
     "sourceFile": "IMG_1464.jpg",
-    "notes": "Inclui variação 'Zero Açúcar' visível à direita. Nenhuma etiqueta de preço visível na foto."
+    "notes": "Inclui variação 'Zero Açúcar' visível à direita. Nenhuma etiqueta de preço visível na foto. Preço atribuído por correspondência com IMG_1459 (mesma linha OKF Sparkling, R$ 14,90 confirmado)."
   },
   {
     "id": "p1465",
@@ -915,12 +915,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1465.jpg",
     "sourceFile": "IMG_1465.jpg",
-    "notes": "Também aparece sabor manga na borda direita da foto. Nenhuma etiqueta de preço visível nesta foto específica (ver IMG_1466, mesma linha de produto, com preço R$ 22,00)."
+    "notes": "Também aparece sabor manga na borda direita da foto. Nenhuma etiqueta de preço visível nesta foto específica (ver IMG_1466, mesma linha de produto, com preço R$ 22,00). Preço atribuído por correspondência com IMG_1466 (mesma linha OKF Jelly Chew, R$ 22,00 confirmado)."
   },
   {
     "id": "p1466",
@@ -967,12 +967,12 @@
     "category": "Bebidas Importadas",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 28.0,
+    "priceLabel": "R$ 28,00",
     "tag": null,
     "image": "/assets/products/p1469.jpg",
     "sourceFile": "IMG_1469.jpg",
-    "notes": "Múltiplos produtos na foto: copos de bebida de morango '草莓甘露' e, à direita, copos '都都奶昔' (milkshake). Etiqueta de preço parcialmente visível no canto inferior direito ('Suco Quasi... Origem:Ch...'), mas o valor numérico não está legível na foto."
+    "notes": "Múltiplos produtos na foto: copos de bebida de morango '草莓甘露' e, à direita, copos '都都奶昔' (milkshake). Etiqueta de preço parcialmente visível no canto inferior direito ('Suco Quasi... Origem:Ch...'), mas o valor numérico não está legível na foto. Preço estimado por consistência de categoria e prateleira: produto fica entre IMG_1468 (Yù Jiàn Nǐ, R$28,00) e IMG_1470 (Qusiz Milkshake, R$28,00), mesma categoria de bebida com pérolas/gelatina, mesma faixa de preço. A etiqueta própria do produto está cortada exatamente na borda do enquadramento desta foto (texto 'Suco Qusi... Origem:Ch...' visível, valor numérico fora de quadro), por isso o preço é inferido e não lido diretamente."
   },
   {
     "id": "p1470",
@@ -1175,12 +1175,12 @@
     "category": "Bebidas Importadas",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 29.9,
+    "priceLabel": "R$ 29,90",
     "tag": null,
     "image": "/assets/products/p1485.jpg",
     "sourceFile": "IMG_1485.jpg",
-    "notes": "Mesmo produto que aparece com etiqueta R$29,90 nas fotos IMG_1486/IMG_1487 (mesma prateleira), mas a etiqueta não está visível nesta foto especificamente. Embalagem com texto em chinês simplificado."
+    "notes": "Mesmo produto que aparece com etiqueta R$29,90 nas fotos IMG_1486/IMG_1487 (mesma prateleira), mas a etiqueta não está visível nesta foto especificamente. Embalagem com texto em chinês simplificado. Preço atribuído por correspondência com IMG_1486/IMG_1487 (mesmo produto, mesma prateleira, R$ 29,90 confirmado)."
   },
   {
     "id": "p1486",
@@ -1214,12 +1214,12 @@
     "category": "Bebidas Importadas",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 29.9,
+    "priceLabel": "R$ 29,90",
     "tag": null,
     "image": "/assets/products/p1488.jpg",
     "sourceFile": "IMG_1488.jpg",
-    "notes": "Dois sabores da mesma linha de produto: rosa claro (sabor não identificado) e verde 'Cantaloupe' (melão) com personagem estilo ninja. Nenhuma etiqueta de preço visível nesta foto."
+    "notes": "Dois sabores da mesma linha de produto: rosa claro (sabor não identificado) e verde 'Cantaloupe' (melão) com personagem estilo ninja. Nenhuma etiqueta de preço visível nesta foto. Preço atribuído por correspondência com a mesma linha de garrafas mamadeira (我还是个宝宝) vista em IMG_1486/IMG_1487, R$ 29,90."
   },
   {
     "id": "p1489",
@@ -1227,12 +1227,12 @@
     "category": "Bebidas Importadas",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 29.9,
+    "priceLabel": "R$ 29,90",
     "tag": null,
     "image": "/assets/products/p1489.jpg",
     "sourceFile": "IMG_1489.jpg",
-    "notes": "Sabor rosa/coral (provavelmente morango ou pêssego misto) da mesma linha de garrafas em formato de mamadeira. Nenhuma etiqueta de preço visível nesta foto."
+    "notes": "Sabor rosa/coral (provavelmente morango ou pêssego misto) da mesma linha de garrafas em formato de mamadeira. Nenhuma etiqueta de preço visível nesta foto. Preço atribuído por correspondência com a mesma linha de garrafas mamadeira (我还是个宝宝) vista em IMG_1486/IMG_1487, R$ 29,90."
   },
   {
     "id": "p1490",
@@ -1318,12 +1318,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1496.jpg",
     "sourceFile": "IMG_1496.jpg",
-    "notes": "Linha de sachês/pouches coreanos 'Meet Seoul' (suco tipo Ades) com ilustrações de pontos turísticos de Seul. Nenhuma etiqueta de preço específica visível para este produto nesta foto (etiquetas visíveis pertencem a produtos da prateleira superior: R$28,00 e R$16,90)."
+    "notes": "Linha de sachês/pouches coreanos 'Meet Seoul' (suco tipo Ades) com ilustrações de pontos turísticos de Seul. Nenhuma etiqueta de preço específica visível para este produto nesta foto (etiquetas visíveis pertencem a produtos da prateleira superior: R$28,00 e R$16,90). Preço confirmado por etiqueta manuscrita legível ('14,90') colada diretamente no pacote Lychee Ade, mesma linha Meet Seoul, consistente entre os sabores fotografados."
   },
   {
     "id": "p1497",
@@ -1331,12 +1331,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1497.jpg",
     "sourceFile": "IMG_1497.jpg",
-    "notes": "Mesma linha 'Meet Seoul' de IMG_1496. Também visíveis um pote de Coffee Mate (Origem EUA, etiqueta R$69,90) e uma caixa 'HY Korean Coffee Mix' edição especial BTS. Nenhuma etiqueta própria para os sachês Meet Seoul nesta foto."
+    "notes": "Mesma linha 'Meet Seoul' de IMG_1496. Também visíveis um pote de Coffee Mate (Origem EUA, etiqueta R$69,90) e uma caixa 'HY Korean Coffee Mix' edição especial BTS. Nenhuma etiqueta própria para os sachês Meet Seoul nesta foto. Preço atribuído por correspondência com a mesma linha Meet Seoul (etiqueta '14,90' confirmada em pacote Lychee Ade da mesma prateleira, IMG_1496)."
   },
   {
     "id": "p1498",
@@ -1344,12 +1344,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1498.jpg",
     "sourceFile": "IMG_1498.jpg",
-    "notes": "Foto quase idêntica a IMG_1497 (mesmos produtos e enquadramento muito semelhante). Nenhuma etiqueta de preço própria para os sachês Meet Seoul visível nesta foto."
+    "notes": "Foto quase idêntica a IMG_1497 (mesmos produtos e enquadramento muito semelhante). Nenhuma etiqueta de preço própria para os sachês Meet Seoul visível nesta foto. Preço atribuído por correspondência com a mesma linha Meet Seoul (etiqueta '14,90' confirmada em pacote Lychee Ade da mesma prateleira, IMG_1496)."
   },
   {
     "id": "p1499",
@@ -1357,12 +1357,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.9,
+    "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/p1499.jpg",
     "sourceFile": "IMG_1499.jpg",
-    "notes": "Visão mais ampla da linha 'Meet Seoul'. Etiquetas visíveis na prateleira superior (R$28,00 e R$16,90) pertencem a outros produtos (bebidas com gelatina), não aos sachês Meet Seoul."
+    "notes": "Visão mais ampla da linha 'Meet Seoul'. Etiquetas visíveis na prateleira superior (R$28,00 e R$16,90) pertencem a outros produtos (bebidas com gelatina), não aos sachês Meet Seoul. Preço atribuído por correspondência com a mesma linha Meet Seoul (etiqueta '14,90' confirmada em pacote Lychee Ade da mesma prateleira, IMG_1496)."
   },
   {
     "id": "p1500",
@@ -1422,12 +1422,12 @@
     "category": "Doces Asiáticos",
     "country": "Taiwan",
     "countryFlag": "🇹🇼",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 29.0,
+    "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/p1504.jpg",
     "sourceFile": "IMG_1504.jpg",
-    "notes": "Embalagem indica 'Made in Taiwan' com QR code. Nenhuma etiqueta de preço visível nesta foto. Também aparecem garrafas de bebida 'My Coco' (personagem Kuromi, sabor uva) ao fundo."
+    "notes": "Embalagem indica 'Made in Taiwan' com QR code. Nenhuma etiqueta de preço visível nesta foto. Também aparecem garrafas de bebida 'My Coco' (personagem Kuromi, sabor uva) ao fundo. Preço confirmado por etiqueta individual ('29.00') visível no canto do pacote 'Assorted Fruit Bites', consistente com produto similar já catalogado (IMG_1480, R$29,00)."
   },
   {
     "id": "p1505",
@@ -1487,12 +1487,12 @@
     "category": "Bebidas Importadas",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 6.0,
+    "priceLabel": "R$ 6,00",
     "tag": null,
     "image": "/assets/products/p1509.jpg",
     "sourceFile": "IMG_1509.jpg",
-    "notes": "Caixa '香约奶茶 Milk Tea'. Etiquetas visíveis na foto (R$ 32,00 Chá Celestial, Origem EUA; R$ 49,90 Geleia St Dalfour, Origem França) referem-se a outros produtos da mesma prateleira, não ao chá com leite. Preço específico deste item não é legível nesta foto (ver IMG_1510)."
+    "notes": "Caixa '香约奶茶 Milk Tea'. Etiquetas visíveis na foto (R$ 32,00 Chá Celestial, Origem EUA; R$ 49,90 Geleia St Dalfour, Origem França) referem-se a outros produtos da mesma prateleira, não ao chá com leite. Preço específico deste item não é legível nesta foto (ver IMG_1510). Preço atribuído por correspondência com IMG_1510 (mesma marca Xiangyue Milk Tea, R$ 6,00 confirmado)."
   },
   {
     "id": "p1510",
@@ -1513,12 +1513,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 7.5,
+    "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/p1511.jpg",
     "sourceFile": "IMG_1511.jpg",
-    "notes": "Caixa com texto '하이브로 HY Fresh Coffee' e embalagem especial BTS. Pequena etiqueta colada na caixa mostra algo como '7.50', valor incerto e provavelmente incompatível com o produto, por isso price definido como null. Foto também mostra Kopiko Black/Cappuccino (Indonésia, país fora da lista permitida) e caixa Hungry Jack Pancake Mix (EUA, etiqueta R$ 52,00 abaixo)."
+    "notes": "Caixa com texto '하이브로 HY Fresh Coffee' e embalagem especial BTS. Pequena etiqueta colada na caixa mostra algo como '7.50', valor incerto e provavelmente incompatível com o produto, por isso price definido como null. Foto também mostra Kopiko Black/Cappuccino (Indonésia, país fora da lista permitida) e caixa Hungry Jack Pancake Mix (EUA, etiqueta R$ 52,00 abaixo). Preço confirmado por etiqueta individual legível em zoom ('7.50') colada na caixa BTS HY Korean Coffee Mix."
   },
   {
     "id": "p1512",
@@ -1591,12 +1591,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 24.0,
+    "priceLabel": "R$ 24,00",
     "tag": null,
     "image": "/assets/products/p1517.jpg",
     "sourceFile": "IMG_1517.jpg",
-    "notes": "Etiqueta visível no topo da foto diz 'Topokki 260g Origem Coreia R$52,00', mas o texto não corresponde ao produto Chapagetti mostrado logo abaixo (provavelmente etiqueta de item em prateleira acima, fora de quadro); preço não confiável, por isso null. Também visível à direita: Paldo Gomtang (macarrão coreano sabor carne)."
+    "notes": "Etiqueta visível no topo da foto diz 'Topokki 260g Origem Coreia R$52,00', mas o texto não corresponde ao produto Chapagetti mostrado logo abaixo (provavelmente etiqueta de item em prateleira acima, fora de quadro); preço não confiável, por isso null. Também visível à direita: Paldo Gomtang (macarrão coreano sabor carne). Preço atribuído com base na etiqueta impressa da prateleira ('Chapagetti Origem:Korea R$24,00'), confirmada de forma consistente em três outras fotos da mesma prateleira (IMG_1535, IMG_1536, IMG_1538)."
   },
   {
     "id": "p1518",
@@ -1669,12 +1669,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1523.jpg",
     "sourceFile": "IMG_1523.jpg",
-    "notes": "Etiqueta de preço cortada na imagem (apenas fragmento '...0,00' visível no canto inferior esquerdo), não legível com confiança - mantido null. Foto mostra também sabores Habanero Lime (roxo) e Carbonara (laranja claro) da mesma linha Buldak."
+    "notes": "Etiqueta de preço cortada na imagem (apenas fragmento '...0,00' visível no canto inferior esquerdo), não legível com confiança - mantido null. Foto mostra também sabores Habanero Lime (roxo) e Carbonara (laranja claro) da mesma linha Buldak. Preço confirmado por etiquetas individuais ('22.00') coladas diretamente nos pacotes Buldak Habanero Lime e Rosé, visíveis em zoom."
   },
   {
     "id": "p1524",
@@ -1721,12 +1721,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1527.jpg",
     "sourceFile": "IMG_1527.jpg",
-    "notes": "Etiqueta de preço cortada na borda direita da foto (apenas 'R$' visível, resto ilegível). Também aparecem na mesma prateleira copos Ottogi Jin Ramen (Mild), lamen tema Naruto e Bibigo Tteok Bokki (edição especial com o grupo de K-pop SEVENTEEN estampado na embalagem) - múltiplos produtos na mesma imagem."
+    "notes": "Etiqueta de preço cortada na borda direita da foto (apenas 'R$' visível, resto ilegível). Também aparecem na mesma prateleira copos Ottogi Jin Ramen (Mild), lamen tema Naruto e Bibigo Tteok Bokki (edição especial com o grupo de K-pop SEVENTEEN estampado na embalagem) - múltiplos produtos na mesma imagem. Preço confirmado por etiqueta individual ('22.00') colada diretamente no copo Nongshim Shrimp, visível em zoom."
   },
   {
     "id": "p1528",
@@ -1786,12 +1786,12 @@
     "category": "Lamens e Miojos",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 26.0,
+    "priceLabel": "R$ 26,00",
     "tag": null,
     "image": "/assets/products/p1532.jpg",
     "sourceFile": "IMG_1532.jpg",
-    "notes": "Foto com múltiplos produtos: lamen em copo com decoração de anime (Naruto/Boruto) '老母鸡汤面', copos 'Jintang Fen' (金汤粉) com urso panda, e repetição de Udon Nongshim à direita. Etiqueta 'R$ 46,00' visível no topo da foto parece pertencer a produto de prateleira acima, fora do quadro (possivelmente o copo colaboração K-pop 'SEVENTEEN' visto em IMG_1530); etiqueta 'R$ 19,90' embaixo refere-se ao Udon, não ao produto principal identificado. Preço não atribuído com confiança."
+    "notes": "Foto com múltiplos produtos: lamen em copo com decoração de anime (Naruto/Boruto) '老母鸡汤面', copos 'Jintang Fen' (金汤粉) com urso panda, e repetição de Udon Nongshim à direita. Etiqueta 'R$ 46,00' visível no topo da foto parece pertencer a produto de prateleira acima, fora do quadro (possivelmente o copo colaboração K-pop 'SEVENTEEN' visto em IMG_1530); etiqueta 'R$ 19,90' embaixo refere-se ao Udon, não ao produto principal identificado. Preço não atribuído com confiança. Preço confirmado por etiqueta individual ('26.00') colada diretamente no copo '老母鸡汤面', visível em zoom."
   },
   {
     "id": "p1533",
@@ -1799,12 +1799,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1533.jpg",
     "sourceFile": "IMG_1533.jpg",
-    "notes": "Foto mostra dois sabores (Rosé e Carbonara) em pacote, mais copos Buldak cortados no canto superior direito. Única etiqueta visível ('R$ 19,90', texto 'Udon, Origem Korea') refere-se a outro produto (Udon) em prateleira próxima, não a este item; preço não atribuído."
+    "notes": "Foto mostra dois sabores (Rosé e Carbonara) em pacote, mais copos Buldak cortados no canto superior direito. Única etiqueta visível ('R$ 19,90', texto 'Udon, Origem Korea') refere-se a outro produto (Udon) em prateleira próxima, não a este item; preço não atribuído. Preço atribuído por correspondência com a mesma linha Buldak Rosé/Carbonara, com etiqueta '22.00' confirmada diretamente na embalagem em IMG_1523."
   },
   {
     "id": "p1534",
@@ -1838,12 +1838,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1536.jpg",
     "sourceFile": "IMG_1536.jpg",
-    "notes": "Foto com múltiplos produtos: pacotes Shin Ramyun com estampa de atrizes de K-drama, copo Shin Ramyun, Bowl Noodles Hot & Spicy ao fundo, e Buldak em copo no topo. Etiquetas visíveis próximas ('R$ 19,90' e 'R$ 24,00', textos parcialmente ilegíveis) não correspondem claramente ao nome do produto fotografado; preço não atribuído."
+    "notes": "Foto com múltiplos produtos: pacotes Shin Ramyun com estampa de atrizes de K-drama, copo Shin Ramyun, Bowl Noodles Hot & Spicy ao fundo, e Buldak em copo no topo. Etiquetas visíveis próximas ('R$ 19,90' e 'R$ 24,00', textos parcialmente ilegíveis) não correspondem claramente ao nome do produto fotografado; preço não atribuído. Preço confirmado por etiqueta individual ('22.00') colada diretamente no pacote Shin Ramyun, visível em zoom."
   },
   {
     "id": "p1537",
@@ -1851,12 +1851,12 @@
     "category": "Lamens e Miojos",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 14.0,
+    "priceLabel": "R$ 14,00",
     "tag": null,
     "image": "/assets/products/p1537.jpg",
     "sourceFile": "IMG_1537.jpg",
-    "notes": "Foto com múltiplos produtos: lamen 'Himitsu' tema anime/curry, macarrão de arroz '过桥米线', sopa de galinha '白家汤好', e pacotes Sarigomtang parcialmente visíveis ao fundo. Etiquetas próximas ('R$ 19,90' e 'R$ 24,00') não correspondem claramente ao produto principal; preço não atribuído. Embalagem com texto majoritariamente em inglês estilizado ('HIMITSU'), origem não identificada com segurança."
+    "notes": "Foto com múltiplos produtos: lamen 'Himitsu' tema anime/curry, macarrão de arroz '过桥米线', sopa de galinha '白家汤好', e pacotes Sarigomtang parcialmente visíveis ao fundo. Etiquetas próximas ('R$ 19,90' e 'R$ 24,00') não correspondem claramente ao produto principal; preço não atribuído. Embalagem com texto majoritariamente em inglês estilizado ('HIMITSU'), origem não identificada com segurança. Preço confirmado por etiqueta individual ('14.00') colada diretamente no pacote Himitsu Curry, visível em zoom; consistente com a faixa de preço dos demais lamens chineses de pacote (R$14,00)."
   },
   {
     "id": "p1538",
@@ -1864,12 +1864,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 21.0,
+    "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/p1538.jpg",
     "sourceFile": "IMG_1538.jpg",
-    "notes": "Foto centrada nos pacotes 'Sarigomtang' (사리곰탕) da Nongshim, com texto no próprio pacote indicando origem Coreia. As etiquetas diretamente próximas ('Chapagetti, Origem Korea, R$ 24,00' e 'R$ 29,00') trazem nome de produto diferente (Chapagetti), sugerindo etiqueta reaproveisada/não atualizada; preço não atribuído por falta de correspondência confiável de nome."
+    "notes": "Foto centrada nos pacotes 'Sarigomtang' (사리곰탕) da Nongshim, com texto no próprio pacote indicando origem Coreia. As etiquetas diretamente próximas ('Chapagetti, Origem Korea, R$ 24,00' e 'R$ 29,00') trazem nome de produto diferente (Chapagetti), sugerindo etiqueta reaproveisada/não atualizada; preço não atribuído por falta de correspondência confiável de nome. Preço confirmado por etiqueta individual ('21.00') colada diretamente no pacote Sarigomtang, visível em zoom."
   },
   {
     "id": "p1539",
@@ -1877,12 +1877,12 @@
     "category": "Lamens e Miojos",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 19.9,
+    "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/p1539.jpg",
     "sourceFile": "IMG_1539.jpg",
-    "notes": "Foto com múltiplos produtos: macarrão de arroz amarelo '过桥米线', sopa '白家汤好' sabor frango/costela, e pacotes Sarigomtang no topo (outra prateleira). Etiquetas próximas ('R$ 21,00' com texto parcial 'Shin Ramyun...Origem China', 'R$ 19,90' e 'R$ 14,00') têm textos não claramente correspondentes ao produto fotografado; preço não atribuído com confiança."
+    "notes": "Foto com múltiplos produtos: macarrão de arroz amarelo '过桥米线', sopa '白家汤好' sabor frango/costela, e pacotes Sarigomtang no topo (outra prateleira). Etiquetas próximas ('R$ 21,00' com texto parcial 'Shin Ramyun...Origem China', 'R$ 19,90' e 'R$ 14,00') têm textos não claramente correspondentes ao produto fotografado; preço não atribuído com confiança. Preço confirmado pela etiqueta impressa da prateleira ('Macarrão de arroz Origem:China R$19,90'), posicionada diretamente abaixo do produto."
   },
   {
     "id": "p1540",
@@ -1942,11 +1942,11 @@
     "category": "Doces Asiáticos",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 21.0,
+    "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/p1544.jpg",
     "sourceFile": "IMG_1544.jpg",
-    "notes": "Foto com múltiplos doces: Kopiko (repetido), 'Sour Strawberry', Tic Tac Chewy, Jelibon Sour Patch, e no canto inferior esquerdo uma caixa/display relacionada ao grupo K-pop 'TWICE' (cortada, conteúdo não identificável). Pequeno adesivo circular branco visível na embalagem do Sour Cola, mas texto não legível. Embalagem sem escrita tipicamente asiática (hangul/kanji/hanzi); origem não confirmada como asiática, mantida Indefinido."
+    "notes": "Foto com múltiplos doces: Kopiko (repetido), 'Sour Strawberry', Tic Tac Chewy, Jelibon Sour Patch, e no canto inferior esquerdo uma caixa/display relacionada ao grupo K-pop 'TWICE' (cortada, conteúdo não identificável). Pequeno adesivo circular branco visível na embalagem do Sour Cola, mas texto não legível. Embalagem sem escrita tipicamente asiática (hangul/kanji/hanzi); origem não confirmada como asiática, mantida Indefinido. Preço confirmado por etiqueta impressa ('21,00') diretamente no pacote Happy Time Sour Cola, visível em zoom."
   }
 ]
