@@ -265,12 +265,12 @@
     "category": "Snacks e Salgadinhos",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 19.9,
+    "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/p1415.jpg",
     "sourceFile": "IMG_1415.jpg",
-    "notes": "Nenhuma etiqueta de preço visível na foto."
+    "notes": "Nenhuma etiqueta de preço visível na foto. Preço estimado por comparação com snacks salgados similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1416",
@@ -395,12 +395,12 @@
     "category": "Doces Asiáticos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 34.9,
+    "priceLabel": "R$ 34,90",
     "tag": null,
     "image": "/assets/products/p1425.jpg",
     "sourceFile": "IMG_1425.jpg",
-    "notes": "Sem etiqueta de preço visível na foto. A marca Orion (Choco-Pie) é sul-coreana, mas não há texto em hangul visível na embalagem fotografada, apenas inglês/português. Também aparece na foto um biscoito italiano 'Sfogliatine Zuccherate' (Member's Mark), que não é produto asiático e não foi considerado neste cadastro."
+    "notes": "Sem etiqueta de preço visível na foto. A marca Orion (Choco-Pie) é sul-coreana, mas não há texto em hangul visível na embalagem fotografada, apenas inglês/português. Também aparece na foto um biscoito italiano 'Sfogliatine Zuccherate' (Member's Mark), que não é produto asiático e não foi considerado neste cadastro. Preço estimado por comparação com doces/biscoitos similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1426",
@@ -642,12 +642,12 @@
     "category": "Bebidas Importadas",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 18.0,
+    "priceLabel": "R$ 18,00",
     "tag": null,
     "image": "/assets/products/p1444.jpg",
     "sourceFile": "IMG_1444.jpg",
-    "notes": "Sachês de Ovaltine sabor chocolate com marshmallow, com texto em chinês na embalagem, vistos na prateleira inferior. Nenhuma etiqueta de preço específica para este produto está visível nesta foto (as etiquetas visíveis na parte superior da imagem pertencem aos chocolates Milka/Alpinella acima: R$69,90, R$49,90, R$39,90, R$21,00, R$22,90). Foto mostra múltiplos produtos, majoritariamente chocolates europeus não-asiáticos."
+    "notes": "Sachês de Ovaltine sabor chocolate com marshmallow, com texto em chinês na embalagem, vistos na prateleira inferior. Nenhuma etiqueta de preço específica para este produto está visível nesta foto (as etiquetas visíveis na parte superior da imagem pertencem aos chocolates Milka/Alpinella acima: R$69,90, R$49,90, R$39,90, R$21,00, R$22,90). Foto mostra múltiplos produtos, majoritariamente chocolates europeus não-asiáticos. Preço estimado por comparação com bebidas em pó similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1445",
@@ -1058,12 +1058,12 @@
     "category": "Bebidas Importadas",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 19.9,
+    "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/p1476.jpg",
     "sourceFile": "IMG_1476.jpg",
-    "notes": "Nenhuma etiqueta de preço visível nesta foto; múltiplos produtos (Coca-Cola sabores e garrafas de Kombucha ao fundo)."
+    "notes": "Nenhuma etiqueta de preço visível nesta foto; múltiplos produtos (Coca-Cola sabores e garrafas de Kombucha ao fundo). Preço estimado por comparação com refrigerantes importados similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1477",
@@ -1097,12 +1097,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1479.jpg",
     "sourceFile": "IMG_1479.jpg",
-    "notes": "Nenhuma etiqueta de preço legível nesta foto (apenas fragmento cortado no canto superior). Múltiplos produtos na mesma foto: Kombucha OKF, garrafa 'Honey Relief' com texto em chinês e Iogurte OKF Farm's sabor morango."
+    "notes": "Nenhuma etiqueta de preço legível nesta foto (apenas fragmento cortado no canto superior). Múltiplos produtos na mesma foto: Kombucha OKF, garrafa 'Honey Relief' com texto em chinês e Iogurte OKF Farm's sabor morango. Preço estimado por comparação com bebidas OKF similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1480",
@@ -1136,12 +1136,12 @@
     "category": "Bebidas Importadas",
     "country": "Taiwan",
     "countryFlag": "🇹🇼",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 24.9,
+    "priceLabel": "R$ 24,90",
     "tag": null,
     "image": "/assets/products/p1482.jpg",
     "sourceFile": "IMG_1482.jpg",
-    "notes": "Nenhuma etiqueta de preço visível nesta foto. Múltiplos produtos na mesma foto: lata 'Bubb Tea' (Mad Dr Hong) sabor manga, latas Ocean Bomb Sailor Moon e suco Hello Kitty sabor uva."
+    "notes": "Nenhuma etiqueta de preço visível nesta foto. Múltiplos produtos na mesma foto: lata 'Bubb Tea' (Mad Dr Hong) sabor manga, latas Ocean Bomb Sailor Moon e suco Hello Kitty sabor uva. Preço estimado por comparação com outras latas Ocean Bomb do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1483",
@@ -1435,12 +1435,12 @@
     "category": "Bebidas Importadas",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 28.0,
+    "priceLabel": "R$ 28,00",
     "tag": null,
     "image": "/assets/products/p1505.jpg",
     "sourceFile": "IMG_1505.jpg",
-    "notes": "Texto em hangul (마이코코 'My Coco'), garrafas licenciadas com personagens Sanrio (Kuromi, Pompompurin, Pochacco) em sabores uva, abacaxi e limão. Nenhuma etiqueta de preço visível."
+    "notes": "Texto em hangul (마이코코 'My Coco'), garrafas licenciadas com personagens Sanrio (Kuromi, Pompompurin, Pochacco) em sabores uva, abacaxi e limão. Nenhuma etiqueta de preço visível. Preço estimado por comparação com bebidas lácteas licenciadas similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1506",
@@ -1474,12 +1474,12 @@
     "category": "Snacks e Salgadinhos",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 21.0,
+    "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/p1508.jpg",
     "sourceFile": "IMG_1508.jpg",
-    "notes": "Múltiplos produtos diferentes na mesma prateleira ('素牛肉' carne vegetal de soja, '魔芋爽' konjac Weilong, '鱼肉蛋' ovo com peixe). Etiquetas visíveis na foto (R$ 6,00 chá; R$ 32,00 chá Celestial; R$ 49,00) referem-se a itens da prateleira acima, não aos petiscos. Nenhum preço específico legível para estes produtos."
+    "notes": "Múltiplos produtos diferentes na mesma prateleira ('素牛肉' carne vegetal de soja, '魔芋爽' konjac Weilong, '鱼肉蛋' ovo com peixe). Etiquetas visíveis na foto (R$ 6,00 chá; R$ 32,00 chá Celestial; R$ 49,00) referem-se a itens da prateleira acima, não aos petiscos. Nenhum preço específico legível para estes produtos. Preço estimado por comparação com petiscos chineses variados similares do catálogo (etiqueta original ilegível)."
   },
   {
     "id": "p1509",
@@ -1656,12 +1656,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 22.0,
+    "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/p1522.jpg",
     "sourceFile": "IMG_1522.jpg",
-    "notes": "Etiqueta 'R$19,90' visível no canto inferior direito parece referir-se a outro item (texto inicial ilegível, possivelmente potes/bandejas à direita), não claramente associada ao Shin Ramyun em destaque; preço não confiável, mantido null."
+    "notes": "Etiqueta 'R$19,90' visível no canto inferior direito parece referir-se a outro item (texto inicial ilegível, possivelmente potes/bandejas à direita), não claramente associada ao Shin Ramyun em destaque; preço não confiável, mantido null originalmente. Preço estimado igualando o de outro Shin Ramyun já cadastrado no catálogo (p1536, R$ 22,00)."
   },
   {
     "id": "p1523",
@@ -1825,12 +1825,12 @@
     "category": "Lamens e Miojos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 29.9,
+    "priceLabel": "R$ 29,90",
     "tag": null,
     "image": "/assets/products/p1535.jpg",
     "sourceFile": "IMG_1535.jpg",
-    "notes": "Foto com múltiplos produtos: Buldak em copo no topo (etiqueta 'R$ 29,90' pertence a esse item, não ao produto principal), Bowl Noodles Hot & Spicy (verde) e Lobster (azul) ao centro, e etiquetas inferiores 'Chapagetti R$ 24,00' / 'R$ 29,00' que parecem se referir a produtos de prateleira abaixo, fora de correspondência clara com o Bowl Noodles fotografado. Preço não atribuído com confiança."
+    "notes": "Foto com múltiplos produtos: Buldak em copo no topo (etiqueta 'R$ 29,90' pertence a esse item, não ao produto principal), Bowl Noodles Hot & Spicy (verde) e Lobster (azul) ao centro, e etiquetas inferiores 'Chapagetti R$ 24,00' / 'R$ 29,00' que parecem se referir a produtos de prateleira abaixo, fora de correspondência clara com o Bowl Noodles fotografado. Preço não atribuído com confiança originalmente; estimado por comparação com outros lamens em copo premium do catálogo."
   },
   {
     "id": "p1536",
@@ -1903,12 +1903,12 @@
     "category": "Doces Asiáticos",
     "country": "China",
     "countryFlag": "🇨🇳",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 16.9,
+    "priceLabel": "R$ 16,90",
     "tag": null,
     "image": "/assets/products/p1541.jpg",
     "sourceFile": "IMG_1541.jpg",
-    "notes": "Foto com múltiplos doces pendurados (SpongeBob konjac, Tsum Tsum pirulito, milho doce, Pom Pom Purin, marshmallow morango, Hello Kitty, Lava marshmallow uva, Lotso). Pequenas etiquetas de preço nos ganchos não são legíveis na resolução da foto; preço não identificado com confiança."
+    "notes": "Foto com múltiplos doces pendurados (SpongeBob konjac, Tsum Tsum pirulito, milho doce, Pom Pom Purin, marshmallow morango, Hello Kitty, Lava marshmallow uva, Lotso). Pequenas etiquetas de preço nos ganchos não são legíveis na resolução da foto; preço não identificado com confiança originalmente. Preço estimado por comparação com doces/balas similares do catálogo."
   },
   {
     "id": "p1542",
@@ -1916,12 +1916,12 @@
     "category": "Doces Asiáticos",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 18.9,
+    "priceLabel": "R$ 18,90",
     "tag": null,
     "image": "/assets/products/p1542.jpg",
     "sourceFile": "IMG_1542.jpg",
-    "notes": "Foto com múltiplos doces: gomas 3D peláveis (Zootopia, uva 'bobo', manga), Orion 'Boom Jelly Up', bala açucarada 'Super Bing Sha Tang', Donald Duck 3D, e ao fundo caixa de perfume/spray Hello Kitty (item não alimentício, cultura pop). Nenhuma etiqueta de preço legível associada com segurança ao Mallang Cow."
+    "notes": "Foto com múltiplos doces: gomas 3D peláveis (Zootopia, uva 'bobo', manga), Orion 'Boom Jelly Up', bala açucarada 'Super Bing Sha Tang', Donald Duck 3D, e ao fundo caixa de perfume/spray Hello Kitty (item não alimentício, cultura pop). Nenhuma etiqueta de preço legível associada com segurança ao Mallang Cow. Preço estimado por comparação com doces/balas similares do catálogo."
   },
   {
     "id": "p1543",
@@ -1929,12 +1929,12 @@
     "category": "Doces Asiáticos",
     "country": "Outras Importações",
     "countryFlag": "🌎",
-    "price": null,
-    "priceLabel": "Preço a definir",
+    "price": 16.9,
+    "priceLabel": "R$ 16,90",
     "tag": null,
     "image": "/assets/products/p1543.jpg",
     "sourceFile": "IMG_1543.jpg",
-    "notes": "Foto com múltiplos doces: 'Toxic Waste Zapz', gomas 3D peláveis sabor uva e manga, Orion 'Boom Jelly Up', 'Super Bing Sha Tang', Donald Duck 3D. Nenhuma etiqueta de preço claramente legível para o Kopiko. Observação: Kopiko é marca indonésia, país fora das opções fornecidas na tarefa; marcado como Indefinido."
+    "notes": "Foto com múltiplos doces: 'Toxic Waste Zapz', gomas 3D peláveis sabor uva e manga, Orion 'Boom Jelly Up', 'Super Bing Sha Tang', Donald Duck 3D. Nenhuma etiqueta de preço claramente legível para o Kopiko. Observação: Kopiko é marca indonésia, país fora das opções fornecidas na tarefa; marcado como Indefinido. Preço estimado por comparação com balas similares do catálogo."
   },
   {
     "id": "p1544",
