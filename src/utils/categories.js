@@ -12,9 +12,27 @@ export const COUNTRIES = [
   { key: "Japão", label: "Japão", flag: "🇯🇵" },
   { key: "China", label: "China", flag: "🇨🇳" },
   { key: "Tailândia", label: "Tailândia", flag: "🇹🇭" },
-  { key: "Taiwan", label: "Taiwan", flag: "TW" },
+  { key: "Taiwan", label: "Taiwan", flag: "🇹🇼" },
+  { key: "Indonésia", label: "Indonésia", flag: "🇮🇩" },
+  { key: "Estados Unidos", label: "Estados Unidos", flag: "🇺🇸" },
+  { key: "Alemanha", label: "Alemanha", flag: "🇩🇪" },
+  { key: "Turquia", label: "Turquia", flag: "🇹🇷" },
+  { key: "Brasil", label: "Brasil", flag: "🇧🇷" },
   { key: "Outras Importações", label: "Outras Importações", flag: "🌎" },
 ];
+
+// Origens com filtro próprio. Qualquer outro país cai em "Outras Importações".
+export const NAMED_COUNTRIES = COUNTRIES
+  .map((c) => c.key)
+  .filter((k) => k !== "Outras Importações");
+
+export const OTHER_COUNTRIES_KEY = "Outras Importações";
+
+export function matchesCountryFilter(productCountry, selected) {
+  if (!selected) return true;
+  if (selected === OTHER_COUNTRIES_KEY) return !NAMED_COUNTRIES.includes(productCountry);
+  return productCountry === selected;
+}
 
 export function countByCategory(products) {
   const counts = {};

@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import Filters from "./Filters.jsx";
 import ProductCard from "./ProductCard.jsx";
 import { Reveal } from "./Reveal.jsx";
+import { matchesCountryFilter } from "../utils/categories.js";
 
 export default function Catalog({ products, onOpenDetails, initialCategory, resetSignal }) {
   const [search, setSearch] = useState("");
@@ -27,7 +28,7 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
         productCategory.toLowerCase().includes(q) ||
         productCountry.toLowerCase().includes(q);
       const matchesCategory = !category || productCategory === category;
-      const matchesCountry = !country || productCountry === country;
+      const matchesCountry = matchesCountryFilter(productCountry, country);
       return matchesSearch && matchesCategory && matchesCountry;
     });
   }, [products, search, category, country]);

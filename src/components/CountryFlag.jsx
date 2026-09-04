@@ -6,6 +6,11 @@ const LABELS = {
   China: "Bandeira da China",
   Tailândia: "Bandeira da Tailândia",
   Taiwan: "Bandeira de Taiwan",
+  Indonésia: "Bandeira da Indonésia",
+  "Estados Unidos": "Bandeira dos Estados Unidos",
+  Alemanha: "Bandeira da Alemanha",
+  Turquia: "Bandeira da Turquia",
+  Brasil: "Bandeira do Brasil",
   "Outras Importações": "Outras importações",
   Indefinido: "Outras importações",
 };
@@ -79,6 +84,48 @@ function renderFlag(country) {
             <circle r="2.6" />
             <circle r="1.35" fill="#000095" />
           </g>
+        </svg>
+      );
+    case "Indonésia":
+      return (
+        <svg viewBox="0 0 36 24" className="h-full w-full" aria-hidden="true">
+          <rect width="36" height="12" fill="#ce1126" />
+          <rect y="12" width="36" height="12" fill="#fff" />
+        </svg>
+      );
+    case "Estados Unidos":
+      return (
+        <svg viewBox="0 0 36 24" className="h-full w-full" aria-hidden="true">
+          <rect width="36" height="24" fill="#fff" />
+          {Array.from({ length: 7 }).map((_, i) => (
+            <rect key={i} y={i * 3.43} width="36" height="1.85" fill="#b22234" />
+          ))}
+          <rect width="15" height="12.9" fill="#3c3b6e" />
+        </svg>
+      );
+    case "Alemanha":
+      return (
+        <svg viewBox="0 0 36 24" className="h-full w-full" aria-hidden="true">
+          <rect width="36" height="8" fill="#000" />
+          <rect y="8" width="36" height="8" fill="#dd0000" />
+          <rect y="16" width="36" height="8" fill="#ffce00" />
+        </svg>
+      );
+    case "Turquia":
+      return (
+        <svg viewBox="0 0 36 24" className="h-full w-full" aria-hidden="true">
+          <rect width="36" height="24" fill="#e30a17" />
+          <circle cx="14" cy="12" r="5" fill="#fff" />
+          <circle cx="15.8" cy="12" r="4" fill="#e30a17" />
+          <polygon fill="#fff" points="21.4,12 19.1,12.8 20.5,10.8 20.5,13.2 19.1,11.2" />
+        </svg>
+      );
+    case "Brasil":
+      return (
+        <svg viewBox="0 0 36 24" className="h-full w-full" aria-hidden="true">
+          <rect width="36" height="24" fill="#009b3a" />
+          <polygon points="18,3 33,12 18,21 3,12" fill="#fedf00" />
+          <circle cx="18" cy="12" r="5.2" fill="#002776" />
         </svg>
       );
     default:
