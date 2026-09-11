@@ -5,12 +5,26 @@ import { Reveal, RevealGroup, RevealItem } from "./Reveal.jsx";
 
 const CATEGORY_ICONS = ["✨", "🍬", "🎏", "🍘"];
 
+// A grade acompanha quantas categorias existem de fato, para nao sobrar
+// coluna vazia nem cartao orfao numa segunda linha.
+const GRADE_POR_QUANTIDADE = {
+  1: "sm:grid-cols-1 lg:grid-cols-1",
+  2: "sm:grid-cols-2 lg:grid-cols-2",
+  3: "sm:grid-cols-3 lg:grid-cols-3",
+  4: "sm:grid-cols-2 lg:grid-cols-4",
+  5: "sm:grid-cols-3 lg:grid-cols-5",
+  6: "sm:grid-cols-3 lg:grid-cols-6",
+};
+
 export default function CategoryGrid({ products, onSelectCategory }) {
   const counts = countByCategory(products);
   const visible = CATEGORIES.filter((c) => counts[c.key]);
 
   return (
-    <section id="categorias" className="relative mx-auto max-w-7xl overflow-hidden px-4 py-16 sm:px-6 sm:py-24">
+    <section
+      id="categorias"
+      className="relative mx-auto max-w-7xl overflow-hidden px-4 pb-6 pt-16 sm:px-6 sm:pb-8 sm:pt-24"
+    >
       <FloatingIcons icons={CATEGORY_ICONS} count={5} seed={21} className="opacity-60" />
 
       <Reveal className="relative mb-10 flex flex-col items-center text-center">
@@ -20,7 +34,11 @@ export default function CategoryGrid({ products, onSelectCategory }) {
         <h2 className="section-title mt-2">Encontre o que você procura</h2>
       </Reveal>
 
-      <RevealGroup className="relative grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+      <RevealGroup
+        className={`relative grid grid-cols-2 gap-4 ${
+          GRADE_POR_QUANTIDADE[visible.length] ?? "sm:grid-cols-3 lg:grid-cols-4"
+        }`}
+      >
         {visible.map((cat) => (
           <RevealItem key={cat.key}>
             <button

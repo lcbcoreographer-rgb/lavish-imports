@@ -4,8 +4,11 @@ import ProductCard from "./ProductCard.jsx";
 import { Reveal } from "./Reveal.jsx";
 import { normalizeCategory } from "../utils/categories.js";
 
+const POR_PAGINA = 24;
+
 export default function Catalog({ products, onOpenDetails, initialCategory, resetSignal }) {
   const [search, setSearch] = useState("");
+  const [limite, setLimite] = useState(POR_PAGINA);
   const [category, setCategory] = useState(initialCategory ?? null);
 
   useEffect(() => {
@@ -14,6 +17,10 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [resetSignal]);
+
+  useEffect(() => {
+    setLimite(POR_PAGINA);
+  }, [search, category]);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -30,6 +37,9 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
       return matchesSearch && matchesCategory;
     });
   }, [products, search, category]);
+
+  const visiveis = filtered.slice(0, limite);
+  const restantes = filtered.length - visiveis.length;
 
   return (
     <section id="produtos" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
@@ -59,14 +69,23 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
       ) : (
         <>
           <p className="mb-4 text-xs text-ink-500">
-            {filtered.length} produto{filtered.length !== 1 ? "s" : ""} encontrado
+            Mostrando {visiveis.length} de {filtered.length} produto
             {filtered.length !== 1 ? "s" : ""}
           </p>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-5">
-            {filtered.map((product) => (
+            {visiveis.map((product) => (
               <ProductCard key={product.id} product={product} onOpenDetails={onOpenDetails} />
             ))}
           </div>
+
+          {restantes > 0 ? (
+            <div className="mt-10 flex justify-center">
+              <button type="button" onClick={() => setLimite((n) => n + POR_PAGINA)} className="btn-secondary">
+                Ver mais produtos
+                <span className="text-ink-500">({restantes})</span>
+              </button>
+            </div>
+          ) : null}
         </>
       )}
     </section>
