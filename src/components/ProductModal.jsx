@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCart } from "../context/CartContext.jsx";
 import CountryFlag from "./CountryFlag.jsx";
+import { normalizeCategory } from "../utils/categories.js";
 
 export default function ProductModal({ product, onClose }) {
   const { addItem } = useCart();
@@ -45,7 +46,7 @@ export default function ProductModal({ product, onClose }) {
 
             <div className="flex flex-col gap-4 p-5 sm:p-7">
               <span className="text-xs font-semibold uppercase tracking-wide text-accent-magenta">
-                {product.category}
+                {normalizeCategory(product.category)}
               </span>
               <h3 className="font-display text-xl font-bold leading-snug text-ink-900 sm:text-2xl">
                 {product.name}

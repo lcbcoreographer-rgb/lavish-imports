@@ -2,12 +2,11 @@ import React, { useEffect, useMemo, useState } from "react";
 import Filters from "./Filters.jsx";
 import ProductCard from "./ProductCard.jsx";
 import { Reveal } from "./Reveal.jsx";
-import { matchesCountryFilter } from "../utils/categories.js";
+import { normalizeCategory } from "../utils/categories.js";
 
 export default function Catalog({ products, onOpenDetails, initialCategory, resetSignal }) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState(initialCategory ?? null);
-  const [country, setCountry] = useState(null);
 
   useEffect(() => {
     if (initialCategory !== undefined) {
@@ -20,7 +19,7 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
     const q = search.trim().toLowerCase();
     return products.filter((p) => {
       const name = p.name ?? "";
-      const productCategory = p.category ?? "";
+      const productCategory = normalizeCategory(p.category);
       const productCountry = p.country ?? "";
       const matchesSearch =
         !q ||
@@ -28,10 +27,9 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
         productCategory.toLowerCase().includes(q) ||
         productCountry.toLowerCase().includes(q);
       const matchesCategory = !category || productCategory === category;
-      const matchesCountry = matchesCountryFilter(productCountry, country);
-      return matchesSearch && matchesCategory && matchesCountry;
+      return matchesSearch && matchesCategory;
     });
-  }, [products, search, category, country]);
+  }, [products, search, category]);
 
   return (
     <section id="produtos" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
@@ -41,19 +39,16 @@ export default function Catalog({ products, onOpenDetails, initialCategory, rese
         </span>
         <h2 className="section-title mt-2">Todos os produtos</h2>
         <p className="mt-2 max-w-md text-sm text-ink-500">
-          Use a busca ou os filtros para encontrar exatamente o que você quer.
+          Use a busca para encontrar exatamente o que você quer.
         </p>
       </Reveal>
 
       <div className="mb-8">
         <Filters
-          products={products}
           search={search}
           onSearch={setSearch}
           category={category}
           onCategory={setCategory}
-          country={country}
-          onCountry={setCountry}
         />
       </div>
 

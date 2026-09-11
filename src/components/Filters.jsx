@@ -1,21 +1,8 @@
 import React from "react";
-import { CATEGORIES, COUNTRIES, countByCategory, countByCountry } from "../utils/categories.js";
-import CountryFlag from "./CountryFlag.jsx";
 
-export default function Filters({
-  products,
-  search,
-  onSearch,
-  category,
-  onCategory,
-  country,
-  onCountry,
-}) {
-  const catCounts = countByCategory(products);
-  const countryCounts = countByCountry(products);
-
+export default function Filters({ search, onSearch, category, onCategory }) {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-3">
       <div className="relative">
         <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-500" />
         <input
@@ -27,62 +14,19 @@ export default function Filters({
         />
       </div>
 
-      <div className="flex flex-wrap gap-2">
-        <FilterChip
-          active={category === null}
-          onClick={() => onCategory(null)}
-          label="Todas as categorias"
-        />
-        {CATEGORIES.filter((c) => catCounts[c.key]).map((c) => (
-          <FilterChip
-            key={c.key}
-            active={category === c.key}
-            onClick={() => onCategory(c.key)}
-            label={`${c.icon} ${c.label} (${catCounts[c.key]})`}
-          />
-        ))}
-      </div>
-
-      <div className="flex flex-wrap gap-2">
-        <FilterChip
-          active={country === null}
-          onClick={() => onCountry(null)}
-          label="Todos os países"
-          variant="country"
-        />
-        {COUNTRIES.filter((c) => countryCounts[c.key]).map((c) => (
-          <FilterChip
-            key={c.key}
-            active={country === c.key}
-            onClick={() => onCountry(c.key)}
-            label={
-              <>
-                <CountryFlag country={c.key} />
-                <span>{c.label} ({countryCounts[c.key]})</span>
-              </>
-            }
-            variant="country"
-          />
-        ))}
-      </div>
+      {category ? (
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            onClick={() => onCategory(null)}
+            className="inline-flex items-center gap-1.5 rounded-full border border-accent-pink/60 bg-accent-pink/15 px-3.5 py-1.5 text-xs font-medium text-accent-magenta transition-colors hover:bg-accent-pink/25"
+            aria-label={`Remover filtro ${category}`}
+          >
+            <span>{category}</span>
+            <CloseIcon className="h-3 w-3" />
+          </button>
+        </div>
+      ) : null}
     </div>
-  );
-}
-
-function FilterChip({ active, onClick, label, variant }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-xs font-medium transition-all duration-150 ${
-        active
-          ? variant === "country"
-            ? "border-accent-gold bg-accent-gold/20 text-ink-900"
-            : "border-accent-pink/60 bg-accent-pink/15 text-accent-magenta"
-          : "border-black/10 bg-white text-ink-700 hover:border-accent-pink/30"
-      }`}
-    >
-      {label}
-    </button>
   );
 }
 
@@ -91,6 +35,14 @@ function SearchIcon({ className }) {
     <svg viewBox="0 0 24 24" fill="none" className={className}>
       <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="1.8" />
       <path d="m20 20-3.5-3.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function CloseIcon({ className }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className}>
+      <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" />
     </svg>
   );
 }

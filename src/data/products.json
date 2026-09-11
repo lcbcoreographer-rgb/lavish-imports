@@ -2,7 +2,7 @@
   {
     "id": "bala-azeda-happy-time-sour-candy-60g-limao-morango-cola",
     "name": "Bala Azeda Happy Time Sour Candy 60g (Limão, Morango, Cola)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 21.0,
@@ -15,7 +15,7 @@
   {
     "id": "bala-azeda-happy-time-sour-candy-16g",
     "name": "Bala Azeda Happy Time Sour Candy 16g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 7.5,
@@ -28,7 +28,7 @@
   {
     "id": "bala-de-gelatina-amos-peelerz-65g-pessego-banana-laranja-uva",
     "name": "Bala de Gelatina Amos Peelerz 65g (Pêssego, Banana, Laranja, Uva)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Malásia",
     "countryFlag": "🇲🇾",
     "price": 18.9,
@@ -41,7 +41,7 @@
   {
     "id": "bala-de-gelatina-amos-4d-fruit-gummy-65g-uva-laranja-morango",
     "name": "Bala de Gelatina Amos 4D Fruit Gummy 65g (Uva, Laranja, Morango)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Malásia",
     "countryFlag": "🇲🇾",
     "price": 22.0,
@@ -54,7 +54,7 @@
   {
     "id": "bala-azeda-jelibon-sour-patch-melancia-morango-tropical",
     "name": "Bala Azeda Jelibon Sour Patch (Melancia, Morango, Tropical)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Turquia",
     "countryFlag": "🇹🇷",
     "price": 22.0,
@@ -67,7 +67,7 @@
   {
     "id": "bala-de-cafe-kopiko-coffee-e-cappuccino",
     "name": "Bala de Café Kopiko (Coffee e Cappuccino)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Indonésia",
     "countryFlag": "🇮🇩",
     "price": 21.0,
@@ -80,7 +80,7 @@
   {
     "id": "bala-mastigavel-lotte-malang-cow-leite-e-morango",
     "name": "Bala Mastigável Lotte Malang Cow (Leite e Morango)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 27.0,
@@ -93,7 +93,7 @@
   {
     "id": "bala-sanrio-hello-kitty-e-kuromi",
     "name": "Bala Sanrio Hello Kitty e Kuromi",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 17.9,
@@ -106,7 +106,7 @@
   {
     "id": "bala-de-gelatina-3d-peelable-gummies-lichia-75g",
     "name": "Bala de Gelatina 3D Peelable Gummies Lichia 75g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 27.0,
@@ -119,7 +119,7 @@
   {
     "id": "bala-black-mania-sortidos-15g",
     "name": "Bala Black Mania Sortidos 15g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Brasil",
     "countryFlag": "🇧🇷",
     "price": 5.0,
@@ -132,7 +132,7 @@
   {
     "id": "bala-acid-mania-sortidos-13g",
     "name": "Bala Acid Mania Sortidos 13g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Brasil",
     "countryFlag": "🇧🇷",
     "price": 5.0,
@@ -145,7 +145,7 @@
   {
     "id": "bala-werther-s-original-creamy-filling",
     "name": "Bala Werther's Original Creamy Filling",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 21.0,
@@ -158,7 +158,7 @@
   {
     "id": "jelly-belly-beanboozled-7a-edicao-45g",
     "name": "Jelly Belly BeanBoozled 7ª Edição 45g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 49.0,
@@ -171,7 +171,7 @@
   {
     "id": "warheads-sour-cubes-e-wedgies",
     "name": "Warheads Sour Cubes e Wedgies",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 32.0,
@@ -184,7 +184,7 @@
   {
     "id": "nerds-uva-e-morango-50g",
     "name": "Nerds Uva e Morango 50g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 22.0,
@@ -197,7 +197,7 @@
   {
     "id": "noble-drops-premium-hard-candies-citrico-tropical-morango-uv",
     "name": "Noble Drops Premium Hard Candies (Cítrico, Tropical, Morango, Uva)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 32.0,
@@ -210,7 +210,7 @@
   {
     "id": "bala-ovo-boom-e-din-crab",
     "name": "Bala Ovo Boom e Din Crab",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Brasil",
     "countryFlag": "🇧🇷",
     "price": 7.5,
@@ -223,7 +223,7 @@
   {
     "id": "lata-de-balas-pokemon-raichu-e-jigglypuff",
     "name": "Lata de Balas Pokémon (Raichu e Jigglypuff)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 34.9,
@@ -236,7 +236,7 @@
   {
     "id": "algodao-doce-pororo-que-vira-chiclete",
     "name": "Algodão Doce Pororo que vira Chiclete",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 19.9,
@@ -249,7 +249,7 @@
   {
     "id": "colar-de-bala-comestivel-world-s-biggest",
     "name": "Colar de Bala Comestível World's Biggest",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 29.9,
@@ -262,7 +262,7 @@
   {
     "id": "lata-de-bala-vitamina-c-disney-mickey-minnie-margarida",
     "name": "Lata de Bala Vitamina C Disney (Mickey, Minnie, Margarida)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 34.9,
@@ -275,7 +275,7 @@
   {
     "id": "bala-liquida-monster-e-esqueleto-20g",
     "name": "Bala Líquida Monster e Esqueleto 20g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 7.5,
@@ -288,7 +288,7 @@
   {
     "id": "cotton-boom-gum-3-em-1-algodao-doce-6-5g",
     "name": "Cotton Boom Gum 3 em 1 Algodão Doce 6,5g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Brasil",
     "countryFlag": "🇧🇷",
     "price": 7.5,
@@ -301,7 +301,7 @@
   {
     "id": "pirulito-musical-music-pop-15g-bob-esponja-patrulha-canina-g",
     "name": "Pirulito Musical Music Pop 15g (Bob Esponja, Patrulha Canina, Garfield)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Brasil",
     "countryFlag": "🇧🇷",
     "price": 25.9,
@@ -314,7 +314,7 @@
   {
     "id": "bala-frut-sortidos-10g",
     "name": "Bala Frut Sortidos 10g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Brasil",
     "countryFlag": "🇧🇷",
     "price": 3.0,
@@ -327,7 +327,7 @@
   {
     "id": "nutella-biscuits-x22",
     "name": "Nutella Biscuits x22",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Itália",
     "countryFlag": "🇮🇹",
     "price": 89.9,
@@ -340,7 +340,7 @@
   {
     "id": "kinder-cards",
     "name": "Kinder Cards",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Outras Importações",
     "countryFlag": "🇪🇺",
     "price": 69.0,
@@ -353,7 +353,7 @@
   {
     "id": "biscoito-lotus-biscoff-250g",
     "name": "Biscoito Lotus Biscoff 250g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Bélgica",
     "countryFlag": "🇧🇪",
     "price": 49.9,
@@ -366,7 +366,7 @@
   {
     "id": "biscoito-lotus-biscoff-124g",
     "name": "Biscoito Lotus Biscoff 124g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Bélgica",
     "countryFlag": "🇧🇪",
     "price": 37.0,
@@ -379,7 +379,7 @@
   {
     "id": "lotte-pepero-amendoa-choco-cookie-e-outros",
     "name": "Lotte Pepero (Amêndoa, Choco Cookie e outros)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 21.0,
@@ -392,7 +392,7 @@
   {
     "id": "biscoito-lotte-koala-s-march-chocolate-banana-morango",
     "name": "Biscoito Lotte Koala's March (Chocolate, Banana, Morango)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Tailândia",
     "countryFlag": "🇹🇭",
     "price": 16.9,
@@ -405,7 +405,7 @@
   {
     "id": "cloudiz-mini-biscuits-patrulha-canina-recheio-de-cacau",
     "name": "Cloudiz Mini Biscuits Patrulha Canina Recheio de Cacau",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Turquia",
     "countryFlag": "🇹🇷",
     "price": 28.0,
@@ -418,7 +418,7 @@
   {
     "id": "biscoito-bonjuks-chocobit-morango-e-pistache",
     "name": "Biscoito Bonjuks Chocobit (Morango e Pistache)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Turquia",
     "countryFlag": "🇹🇷",
     "price": 22.0,
@@ -431,7 +431,7 @@
   {
     "id": "one-piece-dip-n-go-palitos-com-creme-de-avela",
     "name": "One Piece Dip N' Go Palitos com Creme de Avelã",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 16.9,
@@ -444,7 +444,7 @@
   {
     "id": "biscoito-diy-bob-esponja-monte-e-coma",
     "name": "Biscoito DIY Bob Esponja Monte e Coma",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 24.9,
@@ -457,7 +457,7 @@
   {
     "id": "biscoito-macaron-em-copo",
     "name": "Biscoito Macaron em Copo",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 26.0,
@@ -470,7 +470,7 @@
   {
     "id": "biscoito-bogutti-next-butter-cookies-135g",
     "name": "Biscoito Bogutti Next Butter Cookies 135g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Polônia",
     "countryFlag": "🇵🇱",
     "price": 27.0,
@@ -483,7 +483,7 @@
   {
     "id": "biscoito-ja-biscuits-recheio-de-chocolate-172g",
     "name": "Biscoito ja! Biscuits Recheio de Chocolate 172g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 59.0,
@@ -509,7 +509,7 @@
   {
     "id": "trufas-belgas-belgian-truffles-cafe-e-avela",
     "name": "Trufas Belgas Belgian Truffles (Café e Avelã)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Bélgica",
     "countryFlag": "🇧🇪",
     "price": 42.0,
@@ -522,7 +522,7 @@
   {
     "id": "kinder-happy-moments-danke-von-herzen",
     "name": "Kinder Happy Moments Danke von Herzen",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 102.0,
@@ -535,7 +535,7 @@
   {
     "id": "reese-s-2-peanut-butter-cups-42g",
     "name": "Reese's 2 Peanut Butter Cups 42g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 19.9,
@@ -548,7 +548,7 @@
   {
     "id": "chocolate-milka-oreo-biscoff-e-morango",
     "name": "Chocolate Milka (Oreo, Biscoff e Morango)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 23.9,
@@ -561,7 +561,7 @@
   {
     "id": "chocolate-alpinella-ao-leite-morango-e-banana-com-toffee",
     "name": "Chocolate Alpinella (Ao Leite, Morango e Banana com Toffee)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Polônia",
     "countryFlag": "🇵🇱",
     "price": 21.0,
@@ -574,7 +574,7 @@
   {
     "id": "kitkat-salted-caramel",
     "name": "KitKat Salted Caramel",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Reino Unido",
     "countryFlag": "🇬🇧",
     "price": 39.9,
@@ -587,7 +587,7 @@
   {
     "id": "nutella-biscuits-sache-41-4g",
     "name": "Nutella Biscuits Sachê 41,4g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Itália",
     "countryFlag": "🇮🇹",
     "price": 19.9,
@@ -600,7 +600,7 @@
   {
     "id": "kinder-schoko-bons-crispy-12-unidades",
     "name": "Kinder Schoko-Bons Crispy 12 unidades",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Índia",
     "countryFlag": "🇮🇳",
     "price": 59.9,
@@ -613,7 +613,7 @@
   {
     "id": "kinder-schoko-bons-white-200g",
     "name": "Kinder Schoko-Bons White 200g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 99.0,
@@ -626,7 +626,7 @@
   {
     "id": "morango-inteiro-coberto-com-chocolate-60g",
     "name": "Morango Inteiro Coberto com Chocolate 60g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 32.0,
@@ -639,7 +639,7 @@
   {
     "id": "biscoito-lotte-kancho-choco-biscuit",
     "name": "Biscoito Lotte Kancho Choco Biscuit",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 12.0,
@@ -652,7 +652,7 @@
   {
     "id": "caixa-coracao-de-bombons-with-love",
     "name": "Caixa Coração de Bombons With Love",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Turquia",
     "countryFlag": "🇹🇷",
     "price": 32.0,
@@ -665,7 +665,7 @@
   {
     "id": "milka-praline-cartao-with-love-just-for-you-thank-you",
     "name": "Milka Praline Cartão (With Love, Just For You, Thank You)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Alemanha",
     "countryFlag": "🇩🇪",
     "price": 49.9,
@@ -678,7 +678,7 @@
   {
     "id": "bolci-chocolate-spoons-colher-de-chocolate",
     "name": "Bolçi Chocolate Spoons Colher de Chocolate",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Turquia",
     "countryFlag": "🇹🇷",
     "price": 21.0,
@@ -691,7 +691,7 @@
   {
     "id": "marshmallow-tommy-s-pig-morango-e-uva",
     "name": "Marshmallow Tommy's Pig (Morango e Uva)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 22.0,
@@ -704,7 +704,7 @@
   {
     "id": "ovaltine-marshmallow-recheado-com-chocolate-unidade",
     "name": "Ovaltine Marshmallow Recheado com Chocolate unidade",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 7.5,
@@ -717,7 +717,7 @@
   {
     "id": "ovaltine-marshmallow-recheado-com-chocolate-40g",
     "name": "Ovaltine Marshmallow Recheado com Chocolate 40g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 22.0,
@@ -730,7 +730,7 @@
   {
     "id": "marshmallow-rocky-mountain-150g",
     "name": "Marshmallow Rocky Mountain 150g",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 39.9,
@@ -743,7 +743,7 @@
   {
     "id": "marshmallow-bonjuks-chocolatey-baunilha-e-morango",
     "name": "Marshmallow Bonjuks Chocolatey (Baunilha e Morango)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Turquia",
     "countryFlag": "🇹🇷",
     "price": 22.0,
@@ -756,7 +756,7 @@
   {
     "id": "mochi-japones-sortido",
     "name": "Mochi Japonês Sortido",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Japão",
     "countryFlag": "🇯🇵",
     "price": 29.0,
@@ -912,7 +912,7 @@
   {
     "id": "assorted-mini-fruit-bites-gelatina-sortida",
     "name": "Assorted Mini Fruit Bites Gelatina Sortida",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Taiwan",
     "countryFlag": "🇹🇼",
     "price": 29.0,
@@ -925,7 +925,7 @@
   {
     "id": "gelatina-de-konjac-sortida-morango-uva-e-maca",
     "name": "Gelatina de Konjac Sortida (Morango, Uva e Maçã)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 21.0,
@@ -938,7 +938,7 @@
   {
     "id": "gelatina-em-pote-grande-sabor-frutas",
     "name": "Gelatina em Pote Grande Sabor Frutas",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 29.0,
@@ -951,7 +951,7 @@
   {
     "id": "gelatina-em-pote-com-canudo-3-sabores",
     "name": "Gelatina em Pote com Canudo (3 sabores)",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 16.9,
@@ -977,7 +977,7 @@
   {
     "id": "nongshim-chapagetti-macarrao-instantaneo",
     "name": "Nongshim Chapagetti Macarrão Instantâneo",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 24.0,
@@ -990,7 +990,7 @@
   {
     "id": "samyang-buldak-spicy-ramen-pacote",
     "name": "Samyang Buldak Spicy Ramen Pacote",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 22.0,
@@ -1003,7 +1003,7 @@
   {
     "id": "samyang-buldak-big-bowl-copo",
     "name": "Samyang Buldak Big Bowl Copo",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 29.9,
@@ -1016,7 +1016,7 @@
   {
     "id": "nongshim-bowl-noodles-hot-spicy-e-lobster",
     "name": "Nongshim Bowl Noodles (Hot & Spicy e Lobster)",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 24.9,
@@ -1029,7 +1029,7 @@
   {
     "id": "ottogi-jin-ramen-mild-copo",
     "name": "Ottogi Jin Ramen Mild Copo",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 21.0,
@@ -1042,7 +1042,7 @@
   {
     "id": "nongshim-shin-ramyun-toomba-spicy-creamy",
     "name": "Nongshim Shin Ramyun Toomba Spicy & Creamy",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 22.0,
@@ -1055,7 +1055,7 @@
   {
     "id": "one-piece-ramen-edicao-limitada-sanji",
     "name": "One Piece Ramen Edição Limitada Sanji",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Vietnã",
     "countryFlag": "🇻🇳",
     "price": 14.0,
@@ -1068,7 +1068,7 @@
   {
     "id": "ottogi-cheesy-ramen-spicy",
     "name": "Ottogi Cheesy Ramen Spicy",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 21.0,
@@ -1081,7 +1081,7 @@
   {
     "id": "nongshim-sarigomtang-sopa-de-carne-110g",
     "name": "Nongshim Sarigomtang Sopa de Carne 110g",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 21.0,
@@ -1094,7 +1094,7 @@
   {
     "id": "yopokki-topokki-copo-original-e-queijo-120g",
     "name": "Yopokki Topokki Copo (Original e Queijo) 120g",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 34.9,
@@ -1107,7 +1107,7 @@
   {
     "id": "yopokki-topokki-copo-carbonara-tomate-e-sriracha",
     "name": "Yopokki Topokki Copo (Carbonara, Tomate e Sriracha)",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 34.9,
@@ -1120,7 +1120,7 @@
   {
     "id": "yopokki-golden-onion-butter-topokki-120g",
     "name": "Yopokki Golden Onion Butter Topokki 120g",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "Coreia do Sul",
     "countryFlag": "🇰🇷",
     "price": 37.0,
@@ -1133,7 +1133,7 @@
   {
     "id": "lamen-instantaneo-auto-aquecivel-225g",
     "name": "Lámen Instantâneo Auto-Aquecível 225g",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 29.0,
@@ -1146,7 +1146,7 @@
   {
     "id": "panela-auto-aquecivel-zi-hai-guo",
     "name": "Panela Auto-Aquecível Zi Hai Guo",
-    "category": "Lamens e Miojos",
+    "category": "Lamens",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 49.9,
@@ -1601,7 +1601,7 @@
   {
     "id": "pokebola-com-doces-pokemon-oficial",
     "name": "Pokébola com Doces Pokémon Oficial",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "China",
     "countryFlag": "🇨🇳",
     "price": 59.9,
@@ -1614,7 +1614,7 @@
   {
     "id": "bala-de-cafe-kopiko-pocket-pack",
     "name": "Bala de Café Kopiko Pocket Pack",
-    "category": "Doces Asiáticos",
+    "category": "Doces e Chocolates",
     "country": "Indonésia",
     "countryFlag": "🇮🇩",
     "price": 12.0,

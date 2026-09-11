@@ -1,6 +1,7 @@
 import React from "react";
 import { useCart } from "../context/CartContext.jsx";
 import CountryFlag from "./CountryFlag.jsx";
+import { normalizeCategory } from "../utils/categories.js";
 
 export default function ProductCard({ product, onOpenDetails }) {
   const { addItem, lastAdded } = useCart();
@@ -58,7 +59,7 @@ export default function ProductCard({ product, onOpenDetails }) {
 
       <div className="flex flex-1 flex-col gap-2 p-3.5">
         <span className="text-[11px] font-medium uppercase tracking-wide text-accent-magenta">
-          {product.category}
+          {normalizeCategory(product.category)}
         </span>
         <button
           onClick={() => onOpenDetails(product)}
