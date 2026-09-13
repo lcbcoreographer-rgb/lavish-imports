@@ -11,9 +11,6 @@ export default function InstagramGallery({ products }) {
           @lavishimports
         </span>
         <h2 className="section-title mt-2">Siga no Instagram</h2>
-        <span className="mt-3 rounded-full border border-black/10 bg-paper-100 px-3 py-1 text-[11px] text-ink-500">
-          Grid preparado com fotos do catálogo — substitua pelos posts reais do Instagram
-        </span>
       </Reveal>
 
       <div className="grid grid-cols-4 gap-2 sm:gap-3">

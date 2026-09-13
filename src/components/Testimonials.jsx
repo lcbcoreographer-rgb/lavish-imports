@@ -27,9 +27,6 @@ export default function Testimonials() {
           Depoimentos
         </span>
         <h2 className="section-title mt-2">O que dizem sobre a gente</h2>
-        <span className="mt-3 rounded-full border border-black/10 bg-paper-100 px-3 py-1 text-[11px] text-ink-500">
-          Exemplo ilustrativo — substitua por depoimentos reais de clientes
-        </span>
       </Reveal>
 
       <RevealGroup className="grid grid-cols-1 gap-4 sm:grid-cols-3">
