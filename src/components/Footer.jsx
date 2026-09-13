@@ -45,8 +45,7 @@ export default function Footer() {
                   WhatsApp: (41) 9288-4208
                 </a>
               </li>
-              {/* TODO: substituir "#" pelo link real do Instagram */}
-              <li><a href="#" className="hover:text-accent-pink">Instagram: @lavishimports</a></li>
+              <li><a href="https://instagram.com/lavishimports" className="hover:text-accent-pink">Instagram: @lavishimports</a></li>
               <li className="text-ink-300">Endereço: a definir</li>
             </ul>
           </div>

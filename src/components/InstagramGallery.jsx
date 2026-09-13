@@ -27,8 +27,7 @@ export default function InstagramGallery({ products }) {
       </div>
 
       <div className="mt-8 flex justify-center">
-        {/* TODO: substituir "#" pelo link real do Instagram da Lavish Imports */}
-        <a href="#" target="_blank" rel="noreferrer" className="btn-secondary">
+        <a href="https://instagram.com/lavishimports" target="_blank" rel="noreferrer" className="btn-secondary">
           <InstagramIcon className="h-4 w-4" />
           Seguir no Instagram
         </a>

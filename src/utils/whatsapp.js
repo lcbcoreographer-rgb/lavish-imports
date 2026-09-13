@@ -5,20 +5,29 @@ function formatBRL(value) {
 }
 
 export function buildWhatsappLink(items, totalPrice, hasUndefinedPriceItems) {
-  const lines = ["Olá! Gostaria de fazer o seguinte pedido:", ""];
+  const lines = ["*Pedido pelo site — Lavish Imports*", ""];
 
   items.forEach((item) => {
-    const priceLabel =
-      typeof item.price === "number" ? formatBRL(item.price) : "a combinar";
-    lines.push(`${item.quantity}x ${item.name} - ${priceLabel}`);
+    if (typeof item.price === "number") {
+      const subtotal = item.price * item.quantity;
+      lines.push(`• ${item.quantity}x ${item.name} — ${formatBRL(subtotal)}`);
+    } else {
+      lines.push(`• ${item.quantity}x ${item.name} — preço a combinar`);
+    }
   });
 
   lines.push("");
-  if (hasUndefinedPriceItems) {
-    lines.push(`Total estimado: ${formatBRL(totalPrice)} (+ itens com preço a combinar)`);
-  } else {
-    lines.push(`Total: ${formatBRL(totalPrice)}`);
-  }
+  lines.push(
+    hasUndefinedPriceItems
+      ? `*Total parcial: ${formatBRL(totalPrice)}* (+ itens a combinar)`
+      : `*Total: ${formatBRL(totalPrice)}*`
+  );
+
+  // Pede de uma vez o que o vendedor sempre precisa perguntar depois.
+  lines.push("");
+  lines.push("Meu nome: ");
+  lines.push("Bairro / como prefiro receber: ");
+  lines.push("Forma de pagamento: ");
 
   const text = encodeURIComponent(lines.join("\n"));
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;

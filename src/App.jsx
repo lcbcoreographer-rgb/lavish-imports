@@ -48,7 +48,11 @@ export default function App() {
         />
         <PopCultureSection products={popCultureProducts} onOpenDetails={setSelectedProduct} />
         <Benefits />
-        <Testimonials />
+        {/* Depoimentos ocultos: os três textos do template são inventados (Ana Clara,
+            Rafael M., Yasmin T.) e sem a etiqueta de "exemplo" passariam por avaliação
+            real de cliente. Para reativar, troque por depoimentos verdadeiros em
+            src/components/Testimonials.jsx e descomente a linha abaixo. */}
+        {/* <Testimonials /> */}
         <InstagramGallery products={products} />
         <FAQ />
         <FinalCTA />
