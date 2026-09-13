@@ -1,9 +1,6 @@
 import React from "react";
 import { CATEGORIES, countByCategory } from "../utils/categories.js";
-import FloatingIcons from "./FloatingIcons.jsx";
 import { Reveal, RevealGroup, RevealItem } from "./Reveal.jsx";
-
-const CATEGORY_ICONS = ["✨", "🍬", "🎏", "🍘"];
 
 // A grade acompanha quantas categorias existem de fato, para nao sobrar
 // coluna vazia nem cartao orfao numa segunda linha.
@@ -25,8 +22,6 @@ export default function CategoryGrid({ products, onSelectCategory }) {
       id="categorias"
       className="relative mx-auto max-w-7xl overflow-hidden px-4 pb-6 pt-16 sm:px-6 sm:pb-8 sm:pt-24"
     >
-      <FloatingIcons icons={CATEGORY_ICONS} count={5} seed={21} className="opacity-60" />
-
       <Reveal className="relative mb-10 flex flex-col items-center text-center">
         <span className="text-xs font-semibold uppercase tracking-widest text-accent-magenta">
           Explore por categoria
@@ -43,9 +38,9 @@ export default function CategoryGrid({ products, onSelectCategory }) {
           <RevealItem key={cat.key}>
             <button
               onClick={() => onSelectCategory(cat.key)}
-              className="card-surface group flex w-full flex-col items-center gap-3 rounded-2xl px-4 py-6 text-center transition-all duration-200 hover:-translate-y-1 hover:border-accent-pink/50 hover:shadow-glow"
+              className="group flex w-full flex-col items-center gap-2.5 rounded-3xl border border-black/[0.06] bg-white px-4 py-7 text-center transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1.5 hover:border-accent-pink/40 hover:shadow-glow"
             >
-              <span className="text-3xl transition-transform duration-200 group-hover:scale-110">
+              <span className="text-[2.25rem] transition-transform duration-300 ease-out group-hover:scale-110">
                 {cat.icon}
               </span>
               <span className="font-display text-sm font-semibold leading-tight text-ink-900">

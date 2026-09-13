@@ -42,7 +42,7 @@ export default function Footer() {
                   rel="noreferrer"
                   className="hover:text-accent-pink"
                 >
-                  WhatsApp: (41) 98749-0574
+                  WhatsApp: (41) 9288-4208
                 </a>
               </li>
               {/* TODO: substituir "#" pelo link real do Instagram */}

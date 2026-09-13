@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MotionConfig } from "framer-motion";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
+import ScrollProgress from "./components/ScrollProgress.jsx";
 import CategoryGrid from "./components/CategoryGrid.jsx";
 import Catalog from "./components/Catalog.jsx";
 import PopCultureSection from "./components/PopCultureSection.jsx";
@@ -33,8 +34,9 @@ export default function App() {
   return (
     <MotionConfig reducedMotion="user">
       <div className="min-h-screen">
+        <ScrollProgress />
         <Header />
-        <Hero productCount={products.length} />
+        <Hero products={products} />
         <CategoryGrid products={products} onSelectCategory={handleSelectCategory} />
         <Catalog
           products={products}

@@ -1,123 +1,96 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { buildWhatsappContactLink } from "../utils/whatsapp.js";
-import FloatingIcons from "./FloatingIcons.jsx";
+import ProductTicker from "./ProductTicker.jsx";
 
-const HERO_ICONS = ["🍜", "🧋", "🍡", "🥢", "🍬", "🎀", "🍘", "✨"];
+const sobe = {
+  hidden: { opacity: 0, y: 18 },
+  show: (i = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.55, delay: i * 0.08, ease: [0.22, 1, 0.36, 1] },
+  }),
+};
 
-export default function Hero({ productCount }) {
+export default function Hero({ products }) {
+  const vitrine = products.slice(0, 18);
+
   return (
-    <section id="inicio" className="relative overflow-hidden bg-aurora-1">
-      <FloatingIcons icons={HERO_ICONS} count={10} seed={7} />
+    <section id="inicio" className="relative overflow-hidden border-b border-accent-pink/10 bg-paper-50">
+      {/* Um brilho só, atrás do título. O rosa entra como tinta, não como fundo. */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute left-1/2 top-0 h-[520px] w-[860px] -translate-x-1/2 rounded-full opacity-70 blur-3xl"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(255,143,184,0.30) 0%, rgba(255,61,129,0.10) 45%, transparent 70%)",
+        }}
+      />
 
-      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-4 pb-16 pt-14 sm:px-6 sm:pb-24 sm:pt-20 lg:grid-cols-2 lg:gap-16 lg:py-28">
-        <div className="flex flex-col items-center gap-6 text-center lg:items-start lg:text-left">
-          <motion.span
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 rounded-full border border-accent-pink/20 bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent-magenta shadow-sm backdrop-blur-sm"
-          >
-            🌎 Importados da Ásia, Europa e muito mais
-          </motion.span>
+      <div className="relative mx-auto flex max-w-4xl flex-col items-center gap-7 px-4 pb-12 pt-16 text-center sm:px-6 sm:pb-16 sm:pt-24">
+        <motion.span
+          custom={0}
+          initial="hidden"
+          animate="show"
+          variants={sobe}
+          className="inline-flex items-center gap-2 rounded-full border border-accent-pink/25 bg-white px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent-magenta"
+        >
+          Ásia, Europa e EUA
+        </motion.span>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.08 }}
-            className="max-w-xl text-4xl font-extrabold leading-[1.08] tracking-tight text-ink-900 sm:text-6xl"
-          >
-            Os importados mais desejados da{" "}
-            <span className="text-gradient">Ásia, Europa e EUA</span> em um
-            só lugar
-          </motion.h1>
+        <motion.h1
+          custom={1}
+          initial="hidden"
+          animate="show"
+          variants={sobe}
+          className="text-balance font-display text-[2.6rem] font-extrabold leading-[0.98] tracking-[-0.03em] text-ink-900 sm:text-7xl"
+        >
+          Os importados mais desejados
+          <span className="block text-gradient">em um só lugar</span>
+        </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.16 }}
-            className="max-w-md text-base text-ink-700 sm:text-lg"
-          >
-            Doces, snacks, bebidas, lamens, K-pop, anime e muito mais, tudo em
-            um só lugar.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.24 }}
-            className="flex flex-col gap-3 sm:flex-row"
-          >
-            <a href="#produtos" className="btn-primary">
-              Ver Catálogo
-            </a>
-            <a
-              href={buildWhatsappContactLink(
-                "Olá! Vim pelo catálogo online e gostaria de mais informações."
-              )}
-              target="_blank"
-              rel="noreferrer"
-              className="btn-secondary"
-            >
-              Chamar no WhatsApp
-            </a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.32 }}
-            className="mt-4 grid w-full max-w-lg grid-cols-3 gap-3 sm:gap-4"
-          >
-            {[
-              { label: "Produtos", value: `${productCount}+` },
-              { label: "Países de origem", value: "5+" },
-              { label: "Pedido", value: "WhatsApp" },
-            ].map((stat) => (
-              <div
-                key={stat.label}
-                className="card-surface rounded-2xl px-2 py-4 text-center sm:px-3 lg:text-left"
-              >
-                <div className="break-words font-display text-lg font-bold leading-tight text-ink-900 sm:text-2xl">
-                  {stat.value}
-                </div>
-                <div className="mt-1 text-[11px] text-ink-500 sm:text-xs">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </motion.div>
-        </div>
+        <motion.p
+          custom={2}
+          initial="hidden"
+          animate="show"
+          variants={sobe}
+          className="max-w-lg text-pretty text-base leading-relaxed text-ink-700 sm:text-lg"
+        >
+          Doces, snacks, bebidas, lamens, K-pop e anime. Você monta a sacola aqui
+          e fecha o pedido pelo WhatsApp.
+        </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.94, y: 20 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          className="relative mx-auto w-full max-w-md lg:max-w-none"
+          custom={3}
+          initial="hidden"
+          animate="show"
+          variants={sobe}
+          className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row"
         >
-          <span
-            className="floating-icon absolute -left-4 -top-6 text-3xl sm:-left-6"
-            style={{ "--duration": "5s" }}
-            aria-hidden="true"
+          <a href="#produtos" className="btn-primary">
+            Ver catálogo
+          </a>
+          <a
+            href={buildWhatsappContactLink(
+              "Olá! Vim pelo catálogo online e gostaria de mais informações."
+            )}
+            target="_blank"
+            rel="noreferrer"
+            className="btn-secondary"
           >
-            🧋
-          </span>
-          <span
-            className="floating-icon absolute -right-2 -bottom-6 text-3xl sm:-right-4"
-            style={{ "--duration": "6.5s", "--delay": "1s" }}
-            aria-hidden="true"
-          >
-            🍡
-          </span>
-          <div className="overflow-hidden rounded-[2rem] border border-white shadow-glow">
-            <img
-              src="/assets/hero-asian.jpg"
-              alt="Seleção de snacks, doces e bebidas importados da Ásia"
-              className="h-full max-h-[420px] w-full object-cover"
-            />
-          </div>
+            Chamar no WhatsApp
+          </a>
         </motion.div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.35 }}
+        className="relative pb-14 sm:pb-20"
+      >
+        <ProductTicker products={vitrine} />
+      </motion.div>
     </section>
   );
 }

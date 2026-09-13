@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "5541987490574";
+export const WHATSAPP_NUMBER = "5541992884208";
 
 function formatBRL(value) {
   return `R$ ${value.toFixed(2).replace(".", ",")}`;
