@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-black/5 bg-paper-100">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <img
               src="/assets/lavish-logo.png"
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display text-sm font-bold text-ink-900">Paranaguá</h4>
+            <h4 className="font-display text-sm font-bold text-ink-900">Onde estamos</h4>
             <ul className="mt-3 flex flex-col gap-2 text-sm text-ink-500">
               <li>Shopping Estação Mall</li>
               <li>Segunda a sábado, 10h às 22h</li>
@@ -56,23 +56,6 @@ export default function Footer() {
                   @lavish.imports_
                 </a>
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-display text-sm font-bold text-ink-900">Guaratuba</h4>
-            <ul className="mt-3 flex flex-col gap-2 text-sm text-ink-500">
-              <li>
-                <a
-                  href="https://instagram.com/lavishimportsguaratuba"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-accent-pink"
-                >
-                  @lavishimportsguaratuba
-                </a>
-              </li>
-              <li>Endereço e horário no Instagram da unidade.</li>
             </ul>
           </div>
         </div>
