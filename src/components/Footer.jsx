@@ -18,6 +18,16 @@ export default function Footer() {
               Produtos importados asiáticos selecionados com curadoria e amor
               pela cultura pop.
             </p>
+            <a
+              href={buildWhatsappContactLink(
+                "Olá! Vim pelo catálogo online e gostaria de mais informações."
+              )}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-4 inline-block text-sm font-semibold text-ink-900 hover:text-accent-pink"
+            >
+              WhatsApp: (41) 9288-4208
+            </a>
           </div>
 
           <div>
@@ -31,20 +41,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display text-sm font-bold text-ink-900">Contato</h4>
+            <h4 className="font-display text-sm font-bold text-ink-900">Paranaguá</h4>
             <ul className="mt-3 flex flex-col gap-2 text-sm text-ink-500">
-              <li>
-                <a
-                  href={buildWhatsappContactLink(
-                    "Olá! Vim pelo catálogo online e gostaria de mais informações."
-                  )}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-accent-pink"
-                >
-                  WhatsApp: (41) 9288-4208
-                </a>
-              </li>
+              <li>Shopping Estação Mall</li>
+              <li>Segunda a sábado, 10h às 22h</li>
+              <li>Domingo, 14h às 20h</li>
               <li>
                 <a
                   href="https://instagram.com/lavish.imports_"
@@ -52,18 +53,26 @@ export default function Footer() {
                   rel="noreferrer"
                   className="hover:text-accent-pink"
                 >
-                  Instagram: @lavish.imports_
+                  @lavish.imports_
                 </a>
               </li>
-              <li>Shopping Estação Mall, Paranaguá</li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display text-sm font-bold text-ink-900">Atendimento</h4>
+            <h4 className="font-display text-sm font-bold text-ink-900">Guaratuba</h4>
             <ul className="mt-3 flex flex-col gap-2 text-sm text-ink-500">
-              <li>Segunda a sábado, 10h às 22h</li>
-              <li>Domingo, 14h às 20h</li>
+              <li>
+                <a
+                  href="https://instagram.com/lavishimportsguaratuba"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-accent-pink"
+                >
+                  @lavishimportsguaratuba
+                </a>
+              </li>
+              <li>Endereço e horário no Instagram da unidade.</li>
             </ul>
           </div>
         </div>
