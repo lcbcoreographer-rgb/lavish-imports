@@ -1302,7 +1302,7 @@
   {
     "id": "hungry-jack-complete-buttermilk-pancake-waffle-mix",
     "name": "Hungry Jack Complete Buttermilk Pancake & Waffle Mix",
-    "category": "Snacks e Salgadinhos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 29.0,
@@ -1315,7 +1315,7 @@
   {
     "id": "hungry-jack-original-syrup",
     "name": "Hungry Jack Original Syrup",
-    "category": "Snacks e Salgadinhos",
+    "category": "Doces e Chocolates",
     "country": "Estados Unidos",
     "countryFlag": "🇺🇸",
     "price": 49.9,
@@ -1328,7 +1328,7 @@
   {
     "id": "bolduc-maple-syrup-100-puro",
     "name": "Bolduc Maple Syrup 100% Puro",
-    "category": "Snacks e Salgadinhos",
+    "category": "Doces e Chocolates",
     "country": "Canadá",
     "countryFlag": "🇨🇦",
     "price": 89.9,
