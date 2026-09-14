@@ -8,7 +8,7 @@ export default function InstagramGallery({ products }) {
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
       <Reveal className="mb-10 flex flex-col items-center text-center">
         <span className="text-xs font-semibold uppercase tracking-widest text-accent-pink">
-          @lavishimports
+          @lavish.imports_
         </span>
         <h2 className="section-title mt-2">Siga no Instagram</h2>
       </Reveal>
@@ -27,7 +27,7 @@ export default function InstagramGallery({ products }) {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <a href="https://instagram.com/lavishimports" target="_blank" rel="noreferrer" className="btn-secondary">
+        <a href="https://instagram.com/lavish.imports_" target="_blank" rel="noreferrer" className="btn-secondary">
           <InstagramIcon className="h-4 w-4" />
           Seguir no Instagram
         </a>

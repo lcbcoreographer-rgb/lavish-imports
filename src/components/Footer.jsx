@@ -45,16 +45,25 @@ export default function Footer() {
                   WhatsApp: (41) 9288-4208
                 </a>
               </li>
-              <li><a href="https://instagram.com/lavishimports" className="hover:text-accent-pink">Instagram: @lavishimports</a></li>
-              <li className="text-ink-300">Endereço: a definir</li>
+              <li>
+                <a
+                  href="https://instagram.com/lavish.imports_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-accent-pink"
+                >
+                  Instagram: @lavish.imports_
+                </a>
+              </li>
+              <li>Shopping Estação Mall, Paranaguá</li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-display text-sm font-bold text-ink-900">Atendimento</h4>
             <ul className="mt-3 flex flex-col gap-2 text-sm text-ink-500">
-              <li>Segunda a Sábado</li>
-              <li>09h às 19h</li>
+              <li>Segunda a sábado, 10h às 22h</li>
+              <li>Domingo, 14h às 20h</li>
             </ul>
           </div>
         </div>
