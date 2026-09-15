@@ -9,7 +9,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/bala-azeda-happy-time-sour-candy-60g-limao-morango-cola.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000186-PHOTO-2026-08-25-13-56-02.jpg"
   },
   {
@@ -22,7 +22,7 @@
     "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/bala-azeda-happy-time-sour-candy-16g.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000187-PHOTO-2026-08-25-13-56-02.jpg"
   },
   {
@@ -35,7 +35,7 @@
     "priceLabel": "R$ 18,90",
     "tag": null,
     "image": "/assets/products/bala-de-gelatina-amos-peelerz-65g-pessego-banana-laranja-uva.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000188-PHOTO-2026-08-25-13-56-02.jpg"
   },
   {
@@ -48,7 +48,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/bala-de-gelatina-amos-4d-fruit-gummy-65g-uva-laranja-morango.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000189-PHOTO-2026-08-25-13-56-02.jpg"
   },
   {
@@ -61,7 +61,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/bala-azeda-jelibon-sour-patch-melancia-morango-tropical.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000190-PHOTO-2026-08-25-13-56-03.jpg"
   },
   {
@@ -74,7 +74,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/bala-de-cafe-kopiko-coffee-e-cappuccino.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000191-PHOTO-2026-08-25-13-56-03.jpg"
   },
   {
@@ -87,7 +87,7 @@
     "priceLabel": "R$ 27,00",
     "tag": null,
     "image": "/assets/products/bala-mastigavel-lotte-malang-cow-leite-e-morango.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000192-PHOTO-2026-08-25-13-56-03.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "priceLabel": "R$ 17,90",
     "tag": null,
     "image": "/assets/products/bala-sanrio-hello-kitty-e-kuromi.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000193-PHOTO-2026-08-25-13-56-03.jpg"
   },
   {
@@ -113,7 +113,7 @@
     "priceLabel": "R$ 27,00",
     "tag": null,
     "image": "/assets/products/bala-de-gelatina-3d-peelable-gummies-lichia-75g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000194-PHOTO-2026-08-25-13-56-04.jpg"
   },
   {
@@ -126,7 +126,7 @@
     "priceLabel": "R$ 5,00",
     "tag": null,
     "image": "/assets/products/bala-black-mania-sortidos-15g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000195-PHOTO-2026-08-25-13-56-04.jpg"
   },
   {
@@ -139,7 +139,7 @@
     "priceLabel": "R$ 5,00",
     "tag": null,
     "image": "/assets/products/bala-acid-mania-sortidos-13g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000196-PHOTO-2026-08-25-13-56-04.jpg"
   },
   {
@@ -152,7 +152,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/bala-werther-s-original-creamy-filling.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000197-PHOTO-2026-08-25-13-56-04.jpg"
   },
   {
@@ -165,7 +165,7 @@
     "priceLabel": "R$ 49,00",
     "tag": null,
     "image": "/assets/products/jelly-belly-beanboozled-7a-edicao-45g.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000198-PHOTO-2026-08-25-13-56-04.jpg"
   },
   {
@@ -178,7 +178,7 @@
     "priceLabel": "R$ 32,00",
     "tag": null,
     "image": "/assets/products/warheads-sour-cubes-e-wedgies.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000199-PHOTO-2026-08-25-13-56-05.jpg"
   },
   {
@@ -191,7 +191,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/nerds-uva-e-morango-50g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000200-PHOTO-2026-08-25-13-56-05.jpg"
   },
   {
@@ -204,7 +204,7 @@
     "priceLabel": "R$ 32,00",
     "tag": null,
     "image": "/assets/products/noble-drops-premium-hard-candies-citrico-tropical-morango-uv.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000201-PHOTO-2026-08-25-13-56-05.jpg"
   },
   {
@@ -217,7 +217,7 @@
     "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/bala-ovo-boom-e-din-crab.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000202-PHOTO-2026-08-25-13-56-05.jpg"
   },
   {
@@ -230,7 +230,7 @@
     "priceLabel": "R$ 34,90",
     "tag": null,
     "image": "/assets/products/lata-de-balas-pokemon-raichu-e-jigglypuff.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000203-PHOTO-2026-08-25-13-56-05.jpg"
   },
   {
@@ -243,7 +243,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/algodao-doce-pororo-que-vira-chiclete.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000204-PHOTO-2026-08-25-13-56-06.jpg"
   },
   {
@@ -256,7 +256,7 @@
     "priceLabel": "R$ 29,90",
     "tag": null,
     "image": "/assets/products/colar-de-bala-comestivel-world-s-biggest.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000205-PHOTO-2026-08-25-13-56-06.jpg"
   },
   {
@@ -282,7 +282,7 @@
     "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/bala-liquida-monster-e-esqueleto-20g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000207-PHOTO-2026-08-25-13-56-06.jpg"
   },
   {
@@ -295,7 +295,7 @@
     "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/cotton-boom-gum-3-em-1-algodao-doce-6-5g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000208-PHOTO-2026-08-25-13-56-07.jpg"
   },
   {
@@ -308,7 +308,7 @@
     "priceLabel": "R$ 25,90",
     "tag": null,
     "image": "/assets/products/pirulito-musical-music-pop-15g-bob-esponja-patrulha-canina-g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000209-PHOTO-2026-08-25-13-56-07.jpg"
   },
   {
@@ -321,7 +321,7 @@
     "priceLabel": "R$ 3,00",
     "tag": null,
     "image": "/assets/products/bala-frut-sortidos-10g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000210-PHOTO-2026-08-25-13-56-07.jpg"
   },
   {
@@ -334,7 +334,7 @@
     "priceLabel": "R$ 89,90",
     "tag": null,
     "image": "/assets/products/nutella-biscuits-x22.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000211-PHOTO-2026-08-25-13-56-07.jpg"
   },
   {
@@ -347,7 +347,7 @@
     "priceLabel": "R$ 69,00",
     "tag": null,
     "image": "/assets/products/kinder-cards.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000212-PHOTO-2026-08-25-13-56-07.jpg"
   },
   {
@@ -360,7 +360,7 @@
     "priceLabel": "R$ 49,90",
     "tag": null,
     "image": "/assets/products/biscoito-lotus-biscoff-250g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000213-PHOTO-2026-08-25-13-56-08.jpg"
   },
   {
@@ -373,7 +373,7 @@
     "priceLabel": "R$ 37,00",
     "tag": null,
     "image": "/assets/products/biscoito-lotus-biscoff-124g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000214-PHOTO-2026-08-25-13-56-08.jpg"
   },
   {
@@ -386,7 +386,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/lotte-pepero-amendoa-choco-cookie-e-outros.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000215-PHOTO-2026-08-25-13-56-08.jpg"
   },
   {
@@ -399,7 +399,7 @@
     "priceLabel": "R$ 16,90",
     "tag": null,
     "image": "/assets/products/biscoito-lotte-koala-s-march-chocolate-banana-morango.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000216-PHOTO-2026-08-25-13-56-08.jpg"
   },
   {
@@ -412,7 +412,7 @@
     "priceLabel": "R$ 28,00",
     "tag": null,
     "image": "/assets/products/cloudiz-mini-biscuits-patrulha-canina-recheio-de-cacau.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000217-PHOTO-2026-08-25-13-56-09.jpg"
   },
   {
@@ -425,7 +425,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/biscoito-bonjuks-chocobit-morango-e-pistache.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000218-PHOTO-2026-08-25-13-56-09.jpg"
   },
   {
@@ -438,7 +438,7 @@
     "priceLabel": "R$ 16,90",
     "tag": null,
     "image": "/assets/products/one-piece-dip-n-go-palitos-com-creme-de-avela.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000219-PHOTO-2026-08-25-13-56-09.jpg"
   },
   {
@@ -451,7 +451,7 @@
     "priceLabel": "R$ 24,90",
     "tag": null,
     "image": "/assets/products/biscoito-diy-bob-esponja-monte-e-coma.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000220-PHOTO-2026-08-25-13-56-09.jpg"
   },
   {
@@ -464,7 +464,7 @@
     "priceLabel": "R$ 26,00",
     "tag": null,
     "image": "/assets/products/biscoito-macaron-em-copo.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000221-PHOTO-2026-08-25-13-56-09.jpg"
   },
   {
@@ -477,7 +477,7 @@
     "priceLabel": "R$ 27,00",
     "tag": null,
     "image": "/assets/products/biscoito-bogutti-next-butter-cookies-135g.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000222-PHOTO-2026-08-25-13-56-10.jpg"
   },
   {
@@ -490,7 +490,7 @@
     "priceLabel": "R$ 59,00",
     "tag": null,
     "image": "/assets/products/biscoito-ja-biscuits-recheio-de-chocolate-172g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000223-PHOTO-2026-08-25-13-56-10.jpg"
   },
   {
@@ -503,7 +503,7 @@
     "priceLabel": "R$ 37,00",
     "tag": null,
     "image": "/assets/products/biscoito-de-arroz-want-want-senbei.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000224-PHOTO-2026-08-25-13-56-10.jpg"
   },
   {
@@ -516,7 +516,7 @@
     "priceLabel": "R$ 42,00",
     "tag": null,
     "image": "/assets/products/trufas-belgas-belgian-truffles-cafe-e-avela.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000225-PHOTO-2026-08-25-13-56-10.jpg"
   },
   {
@@ -529,7 +529,7 @@
     "priceLabel": "R$ 102,00",
     "tag": null,
     "image": "/assets/products/kinder-happy-moments-danke-von-herzen.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000226-PHOTO-2026-08-25-13-56-11.jpg"
   },
   {
@@ -542,7 +542,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/reese-s-2-peanut-butter-cups-42g.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000227-PHOTO-2026-08-25-13-56-11.jpg"
   },
   {
@@ -555,7 +555,7 @@
     "priceLabel": "R$ 23,90",
     "tag": null,
     "image": "/assets/products/chocolate-milka-oreo-biscoff-e-morango.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000228-PHOTO-2026-08-25-13-56-11.jpg"
   },
   {
@@ -568,7 +568,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/chocolate-alpinella-ao-leite-morango-e-banana-com-toffee.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000229-PHOTO-2026-08-25-13-56-11.jpg"
   },
   {
@@ -581,7 +581,7 @@
     "priceLabel": "R$ 39,90",
     "tag": null,
     "image": "/assets/products/kitkat-salted-caramel.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000230-PHOTO-2026-08-25-13-56-11.jpg"
   },
   {
@@ -594,7 +594,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/nutella-biscuits-sache-41-4g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000231-PHOTO-2026-08-25-13-56-12.jpg"
   },
   {
@@ -607,7 +607,7 @@
     "priceLabel": "R$ 59,90",
     "tag": null,
     "image": "/assets/products/kinder-schoko-bons-crispy-12-unidades.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000232-PHOTO-2026-08-25-13-56-12.jpg"
   },
   {
@@ -620,7 +620,7 @@
     "priceLabel": "R$ 99,00",
     "tag": null,
     "image": "/assets/products/kinder-schoko-bons-white-200g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000233-PHOTO-2026-08-25-13-56-12.jpg"
   },
   {
@@ -633,7 +633,7 @@
     "priceLabel": "R$ 32,00",
     "tag": null,
     "image": "/assets/products/morango-inteiro-coberto-com-chocolate-60g.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000234-PHOTO-2026-08-25-13-56-12.jpg"
   },
   {
@@ -646,7 +646,7 @@
     "priceLabel": "R$ 12,00",
     "tag": null,
     "image": "/assets/products/biscoito-lotte-kancho-choco-biscuit.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000235-PHOTO-2026-08-25-13-56-13.jpg"
   },
   {
@@ -659,7 +659,7 @@
     "priceLabel": "R$ 32,00",
     "tag": null,
     "image": "/assets/products/caixa-coracao-de-bombons-with-love.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000236-PHOTO-2026-08-25-13-56-13.jpg"
   },
   {
@@ -672,7 +672,7 @@
     "priceLabel": "R$ 49,90",
     "tag": null,
     "image": "/assets/products/milka-praline-cartao-with-love-just-for-you-thank-you.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000237-PHOTO-2026-08-25-13-56-13.jpg"
   },
   {
@@ -685,7 +685,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/bolci-chocolate-spoons-colher-de-chocolate.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000238-PHOTO-2026-08-25-13-56-13.jpg"
   },
   {
@@ -698,7 +698,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/marshmallow-tommy-s-pig-morango-e-uva.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000239-PHOTO-2026-08-25-13-56-13.jpg"
   },
   {
@@ -711,7 +711,7 @@
     "priceLabel": "R$ 7,50",
     "tag": null,
     "image": "/assets/products/ovaltine-marshmallow-recheado-com-chocolate-unidade.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000240-PHOTO-2026-08-25-13-56-14.jpg"
   },
   {
@@ -724,7 +724,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/ovaltine-marshmallow-recheado-com-chocolate-40g.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000241-PHOTO-2026-08-25-13-56-14.jpg"
   },
   {
@@ -737,7 +737,7 @@
     "priceLabel": "R$ 39,90",
     "tag": null,
     "image": "/assets/products/marshmallow-rocky-mountain-150g.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000242-PHOTO-2026-08-25-13-56-14.jpg"
   },
   {
@@ -750,7 +750,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/marshmallow-bonjuks-chocolatey-baunilha-e-morango.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000243-PHOTO-2026-08-25-13-56-14.jpg"
   },
   {
@@ -763,7 +763,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/mochi-japones-sortido.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000244-PHOTO-2026-08-25-13-56-15.jpg"
   },
   {
@@ -776,7 +776,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/savi-stix-pretzels-salt.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000245-PHOTO-2026-08-25-13-56-15.jpg"
   },
   {
@@ -789,7 +789,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/doritos-hot-spicy-importado.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000246-PHOTO-2026-08-25-13-56-15.jpg"
   },
   {
@@ -802,7 +802,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/batata-lay-s-importada-sabores-asiaticos.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000247-PHOTO-2026-08-25-13-56-15.jpg"
   },
   {
@@ -815,7 +815,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/nongshim-honey-twist-snack-e-sweet-potato-snack.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000248-PHOTO-2026-08-25-13-56-15.jpg"
   },
   {
@@ -828,7 +828,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/salgadinho-corn-puffs-melon-kick-e-banana-kick.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000249-PHOTO-2026-08-25-13-56-16.jpg"
   },
   {
@@ -841,7 +841,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/nongshim-cuttlefish-snack-sabor-lula.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000250-PHOTO-2026-08-25-13-56-16.jpg"
   },
   {
@@ -854,7 +854,7 @@
     "priceLabel": "R$ 24,00",
     "tag": null,
     "image": "/assets/products/nongshim-shrimp-flavoured-chips-70g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000251-PHOTO-2026-08-25-13-56-16.jpg"
   },
   {
@@ -867,7 +867,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/nongshim-shrimp-crackers-saewookkang-wasabi-spicy-e-original.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000252-PHOTO-2026-08-25-13-56-16.jpg"
   },
   {
@@ -880,7 +880,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/nongshim-onion-flavoured-rings-aneis-de-cebola.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000253-PHOTO-2026-08-25-13-56-17.jpg"
   },
   {
@@ -893,7 +893,7 @@
     "priceLabel": "R$ 14,00",
     "tag": null,
     "image": "/assets/products/munchiz-corn-puffs-hello-kitty-e-bob-esponja.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000254-PHOTO-2026-08-25-13-56-17.jpg"
   },
   {
@@ -906,7 +906,7 @@
     "priceLabel": "R$ 16,00",
     "tag": null,
     "image": "/assets/products/gugen-blazing-k-bbq-chicken-flavored-snack.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000255-PHOTO-2026-08-25-13-56-17.jpg"
   },
   {
@@ -919,7 +919,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/assorted-mini-fruit-bites-gelatina-sortida.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000256-PHOTO-2026-08-25-13-56-17.jpg"
   },
   {
@@ -932,7 +932,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/gelatina-de-konjac-sortida-morango-uva-e-maca.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000257-PHOTO-2026-08-25-13-56-17.jpg"
   },
   {
@@ -958,7 +958,7 @@
     "priceLabel": "R$ 16,90",
     "tag": null,
     "image": "/assets/products/gelatina-em-pote-com-canudo-3-sabores.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000259-PHOTO-2026-08-25-13-56-18.jpg"
   },
   {
@@ -971,7 +971,7 @@
     "priceLabel": "R$ 14,00",
     "tag": null,
     "image": "/assets/products/bebida-de-gelatina-cinnamoroll-uva-e-manga.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000260-PHOTO-2026-08-25-13-56-18.jpg"
   },
   {
@@ -984,7 +984,7 @@
     "priceLabel": "R$ 24,00",
     "tag": null,
     "image": "/assets/products/nongshim-chapagetti-macarrao-instantaneo.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000261-PHOTO-2026-08-25-13-56-18.jpg"
   },
   {
@@ -997,7 +997,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/samyang-buldak-spicy-ramen-pacote.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000262-PHOTO-2026-08-25-13-56-19.jpg"
   },
   {
@@ -1010,7 +1010,7 @@
     "priceLabel": "R$ 29,90",
     "tag": null,
     "image": "/assets/products/samyang-buldak-big-bowl-copo.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000263-PHOTO-2026-08-25-13-56-19.jpg"
   },
   {
@@ -1023,7 +1023,7 @@
     "priceLabel": "R$ 24,90",
     "tag": null,
     "image": "/assets/products/nongshim-bowl-noodles-hot-spicy-e-lobster.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000264-PHOTO-2026-08-25-13-56-19.jpg"
   },
   {
@@ -1036,7 +1036,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/ottogi-jin-ramen-mild-copo.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000265-PHOTO-2026-08-25-13-56-19.jpg"
   },
   {
@@ -1049,7 +1049,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/nongshim-shin-ramyun-toomba-spicy-creamy.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000266-PHOTO-2026-08-25-13-56-19.jpg"
   },
   {
@@ -1062,7 +1062,7 @@
     "priceLabel": "R$ 14,00",
     "tag": null,
     "image": "/assets/products/one-piece-ramen-edicao-limitada-sanji.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000267-PHOTO-2026-08-25-13-56-20.jpg"
   },
   {
@@ -1075,7 +1075,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/ottogi-cheesy-ramen-spicy.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000268-PHOTO-2026-08-25-13-56-20.jpg"
   },
   {
@@ -1088,7 +1088,7 @@
     "priceLabel": "R$ 21,00",
     "tag": null,
     "image": "/assets/products/nongshim-sarigomtang-sopa-de-carne-110g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000269-PHOTO-2026-08-25-13-56-20.jpg"
   },
   {
@@ -1101,7 +1101,7 @@
     "priceLabel": "R$ 34,90",
     "tag": null,
     "image": "/assets/products/yopokki-topokki-copo-original-e-queijo-120g.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000271-PHOTO-2026-08-25-13-56-21.jpg"
   },
   {
@@ -1114,7 +1114,7 @@
     "priceLabel": "R$ 34,90",
     "tag": null,
     "image": "/assets/products/yopokki-topokki-copo-carbonara-tomate-e-sriracha.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000272-PHOTO-2026-08-25-13-56-21.jpg"
   },
   {
@@ -1127,7 +1127,7 @@
     "priceLabel": "R$ 37,00",
     "tag": null,
     "image": "/assets/products/yopokki-golden-onion-butter-topokki-120g.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000273-PHOTO-2026-08-25-13-56-21.jpg"
   },
   {
@@ -1140,7 +1140,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/lamen-instantaneo-auto-aquecivel-225g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000274-PHOTO-2026-08-25-13-56-21.jpg"
   },
   {
@@ -1153,7 +1153,7 @@
     "priceLabel": "R$ 49,90",
     "tag": null,
     "image": "/assets/products/panela-auto-aquecivel-zi-hai-guo.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000275-PHOTO-2026-08-25-13-56-21.jpg"
   },
   {
@@ -1166,7 +1166,7 @@
     "priceLabel": "R$ 26,00",
     "tag": null,
     "image": "/assets/products/pasta-de-pimenta-gochujang-haepyo-170g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000276-PHOTO-2026-08-25-13-56-22.jpg"
   },
   {
@@ -1179,7 +1179,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/molho-sweet-chilli-sauce-spring-roll-e-for-chicken.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000277-PHOTO-2026-08-25-13-56-22.jpg"
   },
   {
@@ -1192,7 +1192,7 @@
     "priceLabel": "R$ 44,00",
     "tag": null,
     "image": "/assets/products/molho-sriracha-chilli-sauce-490g.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000278-PHOTO-2026-08-25-13-56-22.jpg"
   },
   {
@@ -1205,7 +1205,7 @@
     "priceLabel": "R$ 24,90",
     "tag": null,
     "image": "/assets/products/furikake-tempero-para-arroz-japones.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000279-PHOTO-2026-08-25-13-56-22.jpg"
   },
   {
@@ -1218,7 +1218,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/musashi-wasabi-em-pasta-43g.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000281-PHOTO-2026-08-25-13-56-23.jpg"
   },
   {
@@ -1231,7 +1231,7 @@
     "priceLabel": "R$ 59,90",
     "tag": null,
     "image": "/assets/products/s-b-golden-curry-tabletes.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000282-PHOTO-2026-08-25-13-56-23.jpg"
   },
   {
@@ -1244,7 +1244,7 @@
     "priceLabel": "R$ 49,90",
     "tag": null,
     "image": "/assets/products/cafe-kopiko-cappuccino-e-black-3-in-one.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000284-PHOTO-2026-08-25-13-56-23.jpg"
   },
   {
@@ -1257,7 +1257,7 @@
     "priceLabel": "R$ 24,00",
     "tag": null,
     "image": "/assets/products/cafe-bts-classic-e-americano.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000285-PHOTO-2026-08-25-13-56-24.jpg"
   },
   {
@@ -1270,7 +1270,7 @@
     "priceLabel": "R$ 49,90",
     "tag": null,
     "image": "/assets/products/cafe-kopiko-pacote.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000286-PHOTO-2026-08-25-13-56-36.jpg"
   },
   {
@@ -1283,7 +1283,7 @@
     "priceLabel": "R$ 69,90",
     "tag": null,
     "image": "/assets/products/nestle-coffee-mate-155-doses.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000288-PHOTO-2026-08-25-13-56-36.jpg"
   },
   {
@@ -1296,7 +1296,7 @@
     "priceLabel": "R$ 6,00",
     "tag": null,
     "image": "/assets/products/cha-milk-tea-sortido-assam-feijao-vermelho-e-earl-grey.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000289-PHOTO-2026-08-25-13-56-37.jpg"
   },
   {
@@ -1309,7 +1309,7 @@
     "priceLabel": "R$ 29,00",
     "tag": null,
     "image": "/assets/products/hungry-jack-complete-buttermilk-pancake-waffle-mix.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000290-PHOTO-2026-08-25-13-56-37.jpg"
   },
   {
@@ -1322,7 +1322,7 @@
     "priceLabel": "R$ 49,90",
     "tag": null,
     "image": "/assets/products/hungry-jack-original-syrup.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000291-PHOTO-2026-08-25-13-56-37.jpg"
   },
   {
@@ -1335,7 +1335,7 @@
     "priceLabel": "R$ 89,90",
     "tag": null,
     "image": "/assets/products/bolduc-maple-syrup-100-puro.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000292-PHOTO-2026-08-25-13-56-37.jpg"
   },
   {
@@ -1348,7 +1348,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/okf-caffe-mocha-lata-240ml.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000293-PHOTO-2026-08-25-13-56-37.jpg"
   },
   {
@@ -1361,7 +1361,7 @@
     "priceLabel": "R$ 24,00",
     "tag": null,
     "image": "/assets/products/cafe-bts-classic-garrafa.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000294-PHOTO-2026-08-25-13-56-38.jpg"
   },
   {
@@ -1374,7 +1374,7 @@
     "priceLabel": "R$ 89,90",
     "tag": null,
     "image": "/assets/products/maionese-kewpie-450g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000295-PHOTO-2026-08-25-13-56-38.jpg"
   },
   {
@@ -1387,7 +1387,7 @@
     "priceLabel": "R$ 69,00",
     "tag": null,
     "image": "/assets/products/maionese-kewpie-300g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000296-PHOTO-2026-08-25-13-56-38.jpg"
   },
   {
@@ -1400,7 +1400,7 @@
     "priceLabel": "R$ 42,00",
     "tag": null,
     "image": "/assets/products/maionese-kewpie-130g.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000297-PHOTO-2026-08-25-13-56-38.jpg"
   },
   {
@@ -1413,7 +1413,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/fanta-importada-sabores-limao-morango-com-kiwi-e-exotic.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000298-PHOTO-2026-08-25-13-56-39.jpg"
   },
   {
@@ -1426,7 +1426,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/coca-cola-sabores-vanilla-e-cherry.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000299-PHOTO-2026-08-25-13-56-39.jpg"
   },
   {
@@ -1439,7 +1439,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/dr-pepper-original-e-cherry.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000300-PHOTO-2026-08-25-13-56-39.jpg"
   },
   {
@@ -1452,7 +1452,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/bonbon-grape-bebida-com-pedacos-de-uva.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000301-PHOTO-2026-08-25-13-56-39.jpg"
   },
   {
@@ -1465,7 +1465,7 @@
     "priceLabel": "R$ 19,90",
     "tag": null,
     "image": "/assets/products/soda-coreana-sfc-melancia-e-melao-350ml.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000302-PHOTO-2026-08-25-13-56-39.jpg"
   },
   {
@@ -1478,7 +1478,7 @@
     "priceLabel": "R$ 14,00",
     "tag": null,
     "image": "/assets/products/yonsei-leite-saborizado-melao-e-banana.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000303-PHOTO-2026-08-25-13-56-40.jpg"
   },
   {
@@ -1491,7 +1491,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/wahaha-nutri-express-bebida-lactea-morango-e-maca.jpg",
-    "imageSource": "busca-imagem",
+    "imageSource": "gerada",
     "sourcePhoto": "00000304-PHOTO-2026-08-25-13-56-40.jpg"
   },
   {
@@ -1517,7 +1517,7 @@
     "priceLabel": "R$ 28,00",
     "tag": null,
     "image": "/assets/products/bebida-lactea-de-manga-520g.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000306-PHOTO-2026-08-25-13-56-40.jpg"
   },
   {
@@ -1530,7 +1530,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/okf-jelly-chew-coco-manga-e-lichia-500ml.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000307-PHOTO-2026-08-25-13-56-40.jpg"
   },
   {
@@ -1543,7 +1543,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/okf-smoothie-laranja-e-tropical.jpg",
-    "imageSource": "loja-br",
+    "imageSource": "gerada",
     "sourcePhoto": "00000308-PHOTO-2026-08-25-13-56-41.jpg"
   },
   {
@@ -1556,7 +1556,7 @@
     "priceLabel": "R$ 22,00",
     "tag": null,
     "image": "/assets/products/bebida-com-pedacos-de-fruta-sortida.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000309-PHOTO-2026-08-25-13-56-41.jpg"
   },
   {
@@ -1582,7 +1582,7 @@
     "priceLabel": "R$ 14,90",
     "tag": null,
     "image": "/assets/products/okf-agua-saborizada-de-roma.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000311-PHOTO-2026-08-25-13-56-41.jpg"
   },
   {
@@ -1595,7 +1595,7 @@
     "priceLabel": "R$ 39,90",
     "tag": null,
     "image": "/assets/products/soju-jinro-uva-verde-e-morango.jpg",
-    "imageSource": "openfoodfacts",
+    "imageSource": "gerada",
     "sourcePhoto": "00000312-PHOTO-2026-08-25-13-56-42.jpg"
   },
   {
@@ -1608,7 +1608,7 @@
     "priceLabel": "R$ 59,90",
     "tag": null,
     "image": "/assets/products/pokebola-com-doces-pokemon-oficial.jpg",
-    "imageSource": "foto-real",
+    "imageSource": "gerada",
     "sourcePhoto": "00000313-PHOTO-2026-08-25-13-56-42.jpg"
   },
   {
@@ -1621,7 +1621,7 @@
     "priceLabel": "R$ 12,00",
     "tag": null,
     "image": "/assets/products/bala-de-cafe-kopiko-pocket-pack.jpg",
-    "imageSource": "loja",
+    "imageSource": "gerada",
     "sourcePhoto": "00000314-PHOTO-2026-08-25-13-56-42.jpg"
   }
 ]
