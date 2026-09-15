@@ -1,6 +1,5 @@
 import React from "react";
 import { useCart } from "../context/CartContext.jsx";
-import CountryFlag from "./CountryFlag.jsx";
 import { normalizeCategory } from "../utils/categories.js";
 
 export default function ProductCard({ product, onOpenDetails }) {
@@ -21,9 +20,6 @@ export default function ProductCard({ product, onOpenDetails }) {
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]"
         />
-        <span className="absolute left-2.5 top-2.5 inline-flex items-center rounded-md bg-white/90 p-1 shadow-sm backdrop-blur-sm">
-          <CountryFlag country={product.country} />
-        </span>
         {product.tag ? (
           <span className="absolute right-2.5 top-2.5 rounded-full bg-gold-gradient px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink-900 shadow">
             {product.tag}

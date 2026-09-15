@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCart } from "../context/CartContext.jsx";
-import CountryFlag from "./CountryFlag.jsx";
 import { normalizeCategory } from "../utils/categories.js";
 
 export default function ProductModal({ product, onClose }) {
@@ -38,10 +37,6 @@ export default function ProductModal({ product, onClose }) {
               >
                 ✕
               </button>
-              <span className="absolute left-3 top-3 inline-flex items-center gap-2 rounded-full bg-white/90 px-3 py-1.5 text-sm text-ink-900 shadow backdrop-blur-sm">
-                <CountryFlag country={product.country} />
-                {product.country}
-              </span>
             </div>
 
             <div className="flex flex-col gap-4 p-5 sm:p-7">
