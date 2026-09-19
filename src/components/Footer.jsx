@@ -1,7 +1,8 @@
 import React from "react";
 import { buildWhatsappContactLink } from "../utils/whatsapp.js";
+import { TEXTOS_PADRAO } from "../lib/catalog.js";
 
-export default function Footer() {
+export default function Footer({ textos = TEXTOS_PADRAO }) {
   const year = new Date().getFullYear();
 
   return (
@@ -26,7 +27,7 @@ export default function Footer() {
               rel="noreferrer"
               className="mt-4 inline-block text-sm font-semibold text-ink-900 hover:text-accent-pink"
             >
-              WhatsApp: (41) 9288-4208
+              WhatsApp: {textos.whatsapp_exibicao}
             </a>
           </div>
 
@@ -43,17 +44,17 @@ export default function Footer() {
           <div>
             <h4 className="font-display text-sm font-bold text-ink-900">Onde estamos</h4>
             <ul className="mt-3 flex flex-col gap-2 text-sm text-ink-500">
-              <li>Shopping Estação Mall</li>
-              <li>Segunda a sábado, 10h às 22h</li>
-              <li>Domingo, 14h às 20h</li>
+              <li>{textos.loja_endereco}</li>
+              <li>{textos.loja_horario_semana}</li>
+              <li>{textos.loja_horario_domingo}</li>
               <li>
                 <a
-                  href="https://instagram.com/lavish.imports_"
+                  href={`https://instagram.com/${textos.instagram_usuario}`}
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-accent-pink"
                 >
-                  @lavish.imports_
+                  @{textos.instagram_usuario}
                 </a>
               </li>
             </ul>

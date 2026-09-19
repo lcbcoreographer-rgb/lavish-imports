@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { MotionConfig } from "framer-motion";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
@@ -15,15 +15,37 @@ import FinalCTA from "./components/FinalCTA.jsx";
 import Footer from "./components/Footer.jsx";
 import CartDrawer from "./components/CartDrawer.jsx";
 import ProductModal from "./components/ProductModal.jsx";
-import products from "./data/products.json";
+import produtosLocais from "./data/products.json";
 import { getPopCultureProducts } from "./utils/popCulture.js";
-
-const popCultureProducts = getPopCultureProducts(products);
+import { carregarProdutos, carregarTextos, TEXTOS_PADRAO } from "./lib/catalog.js";
+import { definirNumeroWhatsapp } from "./utils/whatsapp.js";
 
 export default function App() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [categoryFilter, setCategoryFilter] = useState(null);
   const [resetSignal, setResetSignal] = useState(0);
+
+  // O catálogo do arquivo aparece de cara; se o Supabase responder, entra no lugar.
+  // Assim a loja nunca fica em branco esperando rede.
+  const [products, setProducts] = useState(produtosLocais);
+  const [textos, setTextos] = useState(TEXTOS_PADRAO);
+
+  useEffect(() => {
+    let ativo = true;
+    carregarProdutos().then(({ produtos }) => {
+      if (ativo) setProducts(produtos);
+    });
+    carregarTextos().then((t) => {
+      if (!ativo) return;
+      definirNumeroWhatsapp(t.whatsapp_numero);
+      setTextos(t);
+    });
+    return () => {
+      ativo = false;
+    };
+  }, []);
+
+  const popCultureProducts = useMemo(() => getPopCultureProducts(products), [products]);
 
   function handleSelectCategory(categoryKey) {
     setCategoryFilter(categoryKey);
@@ -37,7 +59,7 @@ export default function App() {
       <div className="min-h-screen">
         <ScrollProgress />
         <Header />
-        <Hero products={products} />
+        <Hero products={products} textos={textos} />
         <CategoryGrid products={products} onSelectCategory={handleSelectCategory} />
         <MarqueeBand />
         <Catalog
@@ -56,7 +78,7 @@ export default function App() {
         <InstagramGallery products={products} />
         <FAQ />
         <FinalCTA />
-        <Footer />
+        <Footer textos={textos} />
 
         <CartDrawer />
         <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />

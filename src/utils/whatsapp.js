@@ -1,4 +1,12 @@
-export const WHATSAPP_NUMBER = "5541992884208";
+// O número padrão vale enquanto os textos do painel não chegam. Assim que o
+// site carrega as configurações, definirNumeroWhatsapp() troca o valor aqui —
+// os links são montados na hora do clique, então todos passam a usar o novo.
+let numeroWhatsapp = "5541992884208";
+
+export function definirNumeroWhatsapp(numero) {
+  const limpo = String(numero || "").replace(/\D/g, "");
+  if (limpo.length >= 12) numeroWhatsapp = limpo;
+}
 
 function formatBRL(value) {
   return `R$ ${value.toFixed(2).replace(".", ",")}`;
@@ -30,10 +38,10 @@ export function buildWhatsappLink(items, totalPrice, hasUndefinedPriceItems) {
   lines.push("Forma de pagamento: ");
 
   const text = encodeURIComponent(lines.join("\n"));
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+  return `https://wa.me/${numeroWhatsapp}?text=${text}`;
 }
 
 export function buildWhatsappContactLink(message) {
   const text = encodeURIComponent(message);
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+  return `https://wa.me/${numeroWhatsapp}?text=${text}`;
 }

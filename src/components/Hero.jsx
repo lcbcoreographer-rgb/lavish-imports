@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { buildWhatsappContactLink } from "../utils/whatsapp.js";
 import ProductTicker from "./ProductTicker.jsx";
+import { TEXTOS_PADRAO } from "../lib/catalog.js";
 
 const sobe = {
   hidden: { opacity: 0, y: 18 },
@@ -12,7 +13,7 @@ const sobe = {
   }),
 };
 
-export default function Hero({ products }) {
+export default function Hero({ products, textos = TEXTOS_PADRAO }) {
   const vitrine = products.slice(0, 18);
 
   return (
@@ -35,7 +36,7 @@ export default function Hero({ products }) {
           variants={sobe}
           className="inline-flex items-center gap-2 rounded-full border border-accent-pink/25 bg-white px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent-magenta"
         >
-          Ásia, Europa e EUA
+          {textos.hero_selo}
         </motion.span>
 
         <motion.h1
@@ -45,8 +46,8 @@ export default function Hero({ products }) {
           variants={sobe}
           className="text-balance font-display text-[2.6rem] font-extrabold leading-[0.98] tracking-[-0.03em] text-ink-900 sm:text-7xl"
         >
-          Os importados mais desejados
-          <span className="block text-gradient">em um só lugar</span>
+          {textos.hero_titulo}
+          <span className="block text-gradient">{textos.hero_titulo_destaque}</span>
         </motion.h1>
 
         <motion.p
@@ -56,8 +57,7 @@ export default function Hero({ products }) {
           variants={sobe}
           className="max-w-lg text-pretty text-base leading-relaxed text-ink-700 sm:text-lg"
         >
-          Doces, snacks, bebidas, lamens, K-pop e anime. Você monta a sacola aqui
-          e fecha o pedido pelo WhatsApp.
+          {textos.hero_subtitulo}
         </motion.p>
 
         <motion.div
